@@ -1,0 +1,160 @@
+/**
+ * Shortcode Cleaner Lite
+ * Clean your WordPress content from unused broken shortcodes.
+ *
+ * @package   Shortcode_Cleaner_Lite
+ * @author    Jozoor, mohamdio [jozoor.com]
+ * @link      https://plugins.jozoor.com/shortcode-cleaner
+ * @copyright 2017 Jozoor, mohamdio [jozoor.com]
+ * @license   GPL2
+ * @version   1.0.0
+ *
+ * @since  1.0.0
+ */
+
+/**
+ * fonts
+ */
+.cs-framework .cs-header fieldset a.sc-header-links, .cs-framework .sc-welcome-top fieldset .button, .cs-framework .cleaner-status .status-data-number .broken-title, #sc-broken-shortcode-tag .load-shortcode-details h4, .cs-framework .cleaner-status .status-data-number .broken-shortcodes.none {
+	font-family: sky, 'Poppins', sans-serif;
+}
+
+.cs-framework .sc-welcome-top h1, .cs-framework .sc-data h3 {
+	font-family: 'sky-bold', 'Poppins', sans-serif;
+}
+
+/**
+ * styles
+ */
+.cs-framework .cs-header fieldset a.sc-header-links {
+	margin: 0 7px 0 0;
+}
+
+.cs-footer .sc-social, .cs-footer .sc-social a {
+    direction: ltr;
+}
+
+.cs-footer .sc-social a {
+    margin: 0 24px 0 0;
+}
+
+.cs-framework .sc-welcome-top h1 {
+	float: right;
+}
+
+.cs-framework .sc-welcome-top fieldset {
+	float: left;
+}
+
+.cs-framework .sc-welcome-top fieldset .button i {
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+.cs-framework .sc-welcome-center .sc-data {
+	margin-right: 0;
+	margin-left: 4%;
+}
+
+.cs-framework .sc-welcome-center .pure-g div:last-child .sc-data {
+	margin-left: 0;
+}
+
+.cs-framework .cleaner-status .status-data-scan {
+	border-right: none;
+	border-left: 1px solid #F1F1F1;
+}
+
+.cs-framework .cleaner-status .status-data-scan #scan-process {
+	direction: ltr;
+}
+
+.cs-framework .sc-broken-shortcodes #search-broken-shortcode {
+	float: left;
+}
+
+.cs-framework .sc-broken-shortcodes #search-broken-shortcode input {
+	padding-right: 10px;
+	padding-left: 30px;
+}
+
+.cs-framework .sc-broken-shortcodes #search-broken-shortcode i {
+	right: inherit;
+	left: 12px;
+}
+
+.cs-framework .broken-shortcodes-list .broken-shortcode-tag {
+	margin-right: 0;
+	margin-left: 4%;
+}
+
+.cs-framework .broken-shortcodes-list .pure-g div:nth-child(3n) .broken-shortcode-tag {
+	margin-left: 0;
+}
+
+.cs-framework .broken-shortcodes-list .broken-shortcode-tag .sc-tag-item, .toplevel_page_sc_shortcode_cleaner .ui-dialog-titlebar {
+	direction: ltr;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table thead {
+	text-align: right;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table td, #sc-broken-shortcode-tag .load-shortcode-details table th {
+	border-left: none;
+	border-right: 1px solid #e6e6e6;
+}
+
+.sc-support-content a {
+	margin: 0 0 0 10px;
+}
+
+.cs-framework .cs-header h1 {
+	direction: ltr;
+}
+
+.cs-framework .cs-header fieldset a.sc-header-links i, .sc-support-content a i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.cs-framework .sc-upgrade-now {
+	margin: 0px 20px 0 7px;
+	float: left;
+    direction: rtl;
+    padding: 10px 9px 8px 11px;
+    font-family: sky, 'Poppins', sans-serif;
+}
+
+/**
+ * Media query
+ */
+@media only screen and (max-width: 1680px) and (min-width: 1280px) {
+	.cs-framework .sc-welcome-center .sc-data {
+	    margin-left: 3%;
+	    margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.cs-framework .sc-welcome-center .sc-data {
+		margin-left: 0;
+	}
+	.cs-framework .broken-shortcodes-list .pure-g div:nth-child(3n) .broken-shortcode-tag {
+		margin-left: 3.5%;
+		margin-right: 0;
+	}
+	.cs-framework .broken-shortcodes-list .pure-g div:nth-child(2n) .broken-shortcode-tag {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.cs-framework .sc-broken-shortcodes #search-broken-shortcode input {
+		min-width: 180px;
+	}
+	.cs-framework .sc-data h3 {
+		font-size: 15px;
+	}
+}
+

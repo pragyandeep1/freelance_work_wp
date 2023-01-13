@@ -1,0 +1,612 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shortcode Cleaner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-07 15:41+0000\n"
+"PO-Revision-Date: 2018-02-07 15:42+0000\n"
+"Last-Translator: admin <mandooox@gmail.com>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/Module/Settings.php:56
+#, php-format
+msgid "Version %1s, by %2s"
+msgstr "إصدار %1s, بواسطة %2s"
+
+#. Name of the plugin
+msgid "Shortcode Cleaner Lite"
+msgstr ""
+
+#. Description of the plugin
+msgid "Clean your WordPress content from unused broken shortcodes."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://plugins.jozoor.com/shortcode-cleaner"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jozoor"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://jozoor.com/"
+msgstr ""
+
+#: includes/Init.php:116 includes/Module/Settings.php:320
+msgid "Dashboard"
+msgstr "الرئيسية"
+
+#: includes/Init.php:119
+msgid "Go Pro"
+msgstr "ترقية الإضافة"
+
+#: includes/Core/functions.php:31
+#, php-format
+msgid ""
+"<p><strong>%1$s</strong> plugin can not be activated because it requires a "
+"<strong>WordPress</strong> version at least <strong>%2$s</strong> (or later)."
+" Please go to Dashboard &#9656; Updates to get the latest version of "
+"WordPress.</p>"
+msgstr ""
+"<p>لا يمكن تفعيل إضافة <strong>%1$s</strong> لإنها تتطلب نسخة <strong>"
+"ووردبريس</strong> <strong>%2$s</strong> على الأقل (أو أحدث). برجاء الذهاب "
+"إلى الرئيسية &#9656; تحديثات للحصول على أخر نسخة من ووردبريس.</p>"
+
+#: includes/Core/functions.php:62
+#, php-format
+msgid ""
+"<p><strong>%1$s</strong> plugin can not be activated because it requires a "
+"<strong>PHP</strong> version at least <strong>%2$s</strong> (or later). "
+"Please contact with your hosting provider company to upgrade it to this "
+"version at least.</p>"
+msgstr ""
+"<p>لا يمكن تفعيل إضافة <strong>%1$s</strong> لإنها تتطلب نسخة <strong>"
+"PHP</strong> <strong>%2$s</strong> على الأقل (أو أحدث). برجاء الإتصال بشركة "
+"الإستضافة الخاصة بموقعك لتقوم بعملية التحديث لتلك النسخة على الأقل.</p>"
+
+#: includes/Module/Settings.php:51
+msgid "Upgrade Now!"
+msgstr "ترقية الإضافة"
+
+#: includes/Module/Settings.php:59
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: includes/Module/Settings.php:60
+msgid "Reset Section"
+msgstr "إعادة تعيين"
+
+#: includes/Module/Settings.php:61
+msgid "Reset All"
+msgstr "تعيين الكل"
+
+#: includes/Module/Settings.php:62
+#, php-format
+msgid "%s Settings Saved"
+msgstr "%s تم حفظ الإعدادات"
+
+#: includes/Module/Settings.php:63
+msgid "Saving..."
+msgstr "جارى الحفظ..."
+
+#: includes/Module/Settings.php:64
+msgid "Settings saved."
+msgstr "تم حفظ الإعدادات."
+
+#: includes/Module/Settings.php:65
+msgid "Success. Imported backup options."
+msgstr "تم إستيراد النسخة الإحتياطية بنجاح."
+
+#: includes/Module/Settings.php:66
+msgid "Default options restored."
+msgstr "تم إعادة تعيين الإعدادات الإفتراضية."
+
+#: includes/Module/Settings.php:67
+msgid "Default options restored for only this section."
+msgstr "تم إعادة تعيين الإعدادات الإفتراضية لهذا القسم فقط."
+
+#: includes/Module/Settings.php:68
+msgid "show all options"
+msgstr "عرض كل الإعدادات"
+
+#: includes/Module/Settings.php:178 includes/Module/Settings.php:714
+#: includes/Module/Settings.php:737
+msgid "Homepage"
+msgstr "الموقع الرسمى"
+
+#: includes/Module/Settings.php:179 includes/Module/Settings.php:704
+#: includes/Module/Settings.php:714
+msgid "Support"
+msgstr "الدعم الفنى"
+
+#: includes/Module/Settings.php:180 includes/Module/Settings.php:727
+msgid "Feedback"
+msgstr "رأيك يهمنا"
+
+#: includes/Module/Settings.php:337
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/Module/Settings.php:344
+msgid "General"
+msgstr "إعدادات عامة"
+
+#: includes/Module/Settings.php:350
+#, php-format
+msgid "%sGeneral Settings"
+msgstr "%sإعدادات عامة"
+
+#: includes/Module/Settings.php:357
+msgid "Enable Cleaner on the Frontend"
+msgstr "تفعيل الـ Cleaner فى الواجهة الأمامية للموقع"
+
+#: includes/Module/Settings.php:358
+msgid "clean the frontend site content."
+msgstr "سيتم تنظيف محتوى الواجهة الأمامية للموقع."
+
+#: includes/Module/Settings.php:360
+msgid ""
+"Cleaner will just hide this broken shotcodes from any frontend site content "
+"without remove it."
+msgstr ""
+"سيقوم الـ Cleaner بإخفاء أى Shortcodes غير مستخدمة أو معطلة داخل أى محتوى فى "
+"الواجهة الأمامية للموقع."
+
+#: includes/Module/Settings.php:361 includes/Module/Settings.php:403
+#: includes/Module/Settings.php:438 includes/Module/Settings.php:455
+#: includes/Module/Settings.php:547 includes/Module/Settings.php:581
+#: includes/Module/Settings.php:599 includes/Module/Settings.php:617
+msgid "ON"
+msgstr "نعم"
+
+#: includes/Module/Settings.php:362 includes/Module/Settings.php:404
+#: includes/Module/Settings.php:439 includes/Module/Settings.php:456
+#: includes/Module/Settings.php:548 includes/Module/Settings.php:582
+#: includes/Module/Settings.php:600 includes/Module/Settings.php:618
+msgid "OFF"
+msgstr "لا"
+
+#: includes/Module/Settings.php:369
+msgid "Ignore this broken Shortcodes from Cleaning"
+msgstr "تجاهل تلك الـ Shortcodes الغير مستخدمة من عملية التنظيف"
+
+#: includes/Module/Settings.php:370 includes/Module/Settings.php:412
+#: includes/Module/Settings.php:470
+#, php-format
+msgid "%1sseparate shortcode tags with commas%2s"
+msgstr "%1sيمكنك إضافة أكثر من shortcodes بالشكل التالى%2s"
+
+#: includes/Module/Settings.php:371
+msgid ""
+"Cleaner will not clean this broken shotcodes and let it appear as normal "
+"broken."
+msgstr ""
+"لن يتم تنظيف أو إخفاء تلك الـ Shortcodes الغير مستخدمة أو المعطلة من قبل الـ "
+"Cleaner، ولكن سيتم تجاهلها وستظهر بشكلها الطبيعى كـ Shortcodes غير مستخدمة "
+"ومعطلة."
+
+#: includes/Module/Settings.php:377 includes/Module/Settings.php:392
+#: includes/Module/Settings.php:420 includes/Module/Settings.php:479
+msgid "Add"
+msgstr "إضافة"
+
+#: includes/Module/Settings.php:384
+msgid "Show broken Shortcodes within this HTML code tags"
+msgstr "إظهار الـ Shortcodes الغير مستخدمة داخل HTML code tags"
+
+#: includes/Module/Settings.php:385
+#, php-format
+msgid "%1sseparate HTML code tags with commas%2s"
+msgstr "%1sيمكنك إضافة أكثر من HTML code tags بالشكل التالى%2s"
+
+#: includes/Module/Settings.php:386
+msgid "Cleaner will not clean any broken shotcodes within this HTML code tags."
+msgstr ""
+"لن يتم تنظيف أو إخفاء أى Shortcodes غير مستخدمة أو معطلة من قبل الـ Cleaner "
+"داخل تلك الـ HTML code tags."
+
+#: includes/Module/Settings.php:399
+msgid "Clean all broken Shortcodes Content"
+msgstr "تنظيف محتوى كل الـ Shortcodes الغير مستخدمة"
+
+#: includes/Module/Settings.php:400
+msgid "clean any content within broken shortcodes."
+msgstr "سيتم تنظيف أى محتوى داخل الـ Shortcodes الغير مستخدمة."
+
+#: includes/Module/Settings.php:401 includes/Module/Settings.php:413
+msgid ""
+"In normal we keep any content between broken shortcods if exists after "
+"cleaning, but here you can clean broken shortcodes content also."
+msgstr ""
+"فى الطبيعى الـ Cleaner يترك أى محتوى داخل الـ Shortcodes الغير مستخدمة فى "
+"حالة وجود المحتوى بالفعل, ولكن هنا اذا قمت بتفعيل هذا الخيار، سيتم تنظيف "
+"وإخفاء المحتوى ايضا بالإضافة الى الـ Shortcodes المعطلة نفسها."
+
+#: includes/Module/Settings.php:411
+msgid "Clean this broken Shortcodes Content"
+msgstr "تنظيف محتوى تلك الـ Shortcodes الغير مستخدمة"
+
+#: includes/Module/Settings.php:427 includes/Module/Settings.php:536
+#, php-format
+msgid "%1sUpgrade to %2sShortcode Cleaner Pro%3s to Unlock this Features.%4s"
+msgstr ""
+"%1sقم بترقية الإضافة الى %2sالنسخة المدفوعة%3s للحصول على تلك المميزات.%4s"
+
+#: includes/Module/Settings.php:434
+msgid "Enable Cleaner on the Backend"
+msgstr "تفعيل الـ Cleaner فى لوحة تحكم الموقع"
+
+#: includes/Module/Settings.php:435
+msgid "clean the backend admin content."
+msgstr "سيتم تنظيف أى محتوى داخل لوحة تحكم الموقع."
+
+#: includes/Module/Settings.php:437
+msgid ""
+"Cleaner will just hide this broken shotcodes from any backend admin content, "
+"until you update or save the cleaned content, after that all this broken "
+"shortcodes will be removed completely."
+msgstr ""
+"سيقوم الـ Cleaner بإخفاء أى Shortcodes غير مستخدمة أو معطلة داخل أى محتوى فى "
+"لوحة تحكم الموقع، حتى تقوم أنت بتحديث أو حفظ هذا المحتوى النظيف، فى تلك "
+"الحالة كل الـ Shortcodes الغير مستخدمة سيتم حذفها نهائيا."
+
+#: includes/Module/Settings.php:452
+msgid "Show broken Shortcodes Status in Admin Bar"
+msgstr "إظهار حالة الـ Shortcodes الغير مستخدمة فى شريط لوحة التحكم"
+
+#: includes/Module/Settings.php:453
+msgid "show unused broken shortcodes status."
+msgstr "سيتم إضافة رابط يحتوى على عدد وحالة الـ Shortcodes"
+
+#: includes/Module/Settings.php:469
+msgid "Force this active Shortcodes to be broken (inactive)"
+msgstr "تعطيل تلك الـ Shortcodes المستخدمة أو المفعلة"
+
+#: includes/Module/Settings.php:471
+msgid "Cleaner will clean this active broken shotcodes."
+msgstr ""
+"سيقوم الـ Cleaner بإخفاء تلك الـ Shortcodes المستخدمة أو المفعلة بعدما أصبحت "
+"غير مستخدمة ومعطلة."
+
+#: includes/Module/Settings.php:489
+msgid "Advanced"
+msgstr "إعدادات متقدمة"
+
+#: includes/Module/Settings.php:495
+#, php-format
+msgid "%sAdvanced Settings"
+msgstr "%sإعدادات متقدمة"
+
+#: includes/Module/Settings.php:502
+msgid "Available default Frontend Site WP Content Filters"
+msgstr "مجموعة الـ Filters الإفتراضية المستخدمة فى الواجهة الأمامية للموقع"
+
+#: includes/Module/Settings.php:503 includes/Module/Settings.php:596
+msgid "Cleaner use this default WordPress filters when cleaning."
+msgstr ""
+"يستخدم الـ Cleaner تلك الـ Filters من قبل ووردبريس أثناء تنظيف المحتوى."
+
+#: includes/Module/Settings.php:505
+msgid ""
+"Cleaner use this frontend WP filters to clean its Content from broken "
+"Shortcodes, so here you can enable or disable any filter from cleaning its "
+"content."
+msgstr ""
+"يستخدم الـ Cleaner تلك الـ Filters الخاصة بالواجهة االأمامية للموقع لتنظيف "
+"أى محتوى داخلها من الـ Shortcodes الغير مستخدمة، وبالتالى هنا يمكنك تفعيل او "
+"تعطيل أى Filter من تنظيف محتواه."
+
+#: includes/Module/Settings.php:543
+msgid "Enable Cleaner into the Database"
+msgstr "تفعيل الـ Cleaner داخل قاعدة البيانات"
+
+#: includes/Module/Settings.php:544
+msgid "clean the content into database"
+msgstr "تنظيف المحتوى فى قاعدة البيانات"
+
+#: includes/Module/Settings.php:545
+msgid ""
+"Cleaner will clean the content into database and any broken shortcodes will "
+"be removed completely."
+msgstr ""
+"سيقوم الـ Cleaner بتنظيف المحتوى داخل قاعدة البيانات وأى Shortcodes معطلة "
+"سيتم حذفها نهائيا."
+
+#: includes/Module/Settings.php:562
+msgid "Determine Upper Limit for Number of Posts"
+msgstr "تحديد أقصى عدد للمقالات ليتم تنظيفها"
+
+#: includes/Module/Settings.php:563
+#, php-format
+msgid "%1s define number of posts to be cleaned, default is: %2s %3s"
+msgstr "%1s أضف عدد المقالات المراد تنظيفها, الإفتراضى: %2s %3s"
+
+#: includes/Module/Settings.php:564
+msgid ""
+"Cleaner will clean the content into database for this max number of posts if "
+"contain any broken shortcodes, you can increase this number to clean more "
+"posts if you have, also posts here mean (posts, pages, custom post types)."
+msgstr ""
+"سيقوم الـ Cleaner بتنظيف محتوى الموقع فى قاعدة البيانات لهذا العدد من "
+"المقالات لو كانت تحتوى على أى Shortcodes معطلة, يمكنك زيادة هذا العدد لتنظيف "
+"مقالات أكثر."
+
+#: includes/Module/Settings.php:565
+msgid "posts here mean (posts, pages, custom post types)"
+msgstr "المقالات هنا تعنى (مقالات، صفحات, نوع مقالات خاصة)"
+
+#: includes/Module/Settings.php:577
+msgid "Enable custom Frontend Site Content Filters"
+msgstr "تفعيل إستخدام Filters خاصة فى الواجهة الأمامية للموقع"
+
+#: includes/Module/Settings.php:578
+msgid "add new custom frontend site content filters"
+msgstr "يمكنك إضافة مجموعة من الـ Filters الخاصة فى الواجهة الأمامية للموقع"
+
+#: includes/Module/Settings.php:579 includes/Module/Settings.php:615
+msgid ""
+"Here you can add new custom content filters from WP or any custom Plugin or "
+"Theme to let cleaner clean this filter content."
+msgstr ""
+"هنا يمكنك إضافة Filters جديدة سواء من ووردبريس نفسها أو أى إضافة أو قالب خاص "
+"لكى تجعل الـ Cleaner يقوم بتنظيف محتوى تلك الـ Filters ايضا."
+
+#: includes/Module/Settings.php:595
+msgid "Available default Backend Admin WP Content Filters"
+msgstr "مجموعة الـ Filters الإفتراضية المستخدمة فى لوحة تحكم الموقع"
+
+#: includes/Module/Settings.php:597
+msgid ""
+"Cleaner use this backend WP filters to clean its Content from broken "
+"Shortcodes, so here you can enable or disable any filter from cleaning its "
+"content."
+msgstr ""
+"يستخدم الـ Cleaner تلك الـ Filters الخاصة بلوحة تحكم الموقع لتنظيف أى محتوى "
+"داخلها من الـ Shortcodes الغير مستخدمة، وبالتالى هنا يمكنك تفعيل او تعطيل أى "
+"Filter من تنظيف محتواه."
+
+#: includes/Module/Settings.php:613
+msgid "Enable custom Backend Admin Content Filters"
+msgstr "تفعيل إستخدام Filters خاصة فى لوحة تحكم الموقع"
+
+#: includes/Module/Settings.php:614
+msgid "add new custom backend admin content filters"
+msgstr "يمكنك إضافة مجموعة من الـ Filters الخاصة فى لوحة تحكم الموقع"
+
+#: includes/Module/Settings.php:640
+msgid "Backup"
+msgstr "نسخة إحتياطية"
+
+#: includes/Module/Settings.php:646
+#, php-format
+msgid "%sBackup"
+msgstr "%sنسخة إحتياطية"
+
+#: includes/Module/Settings.php:652 includes/Module/Settings.php:655
+msgid "Import a Backup"
+msgstr "إستيراد نسخة إحتياطية"
+
+#: includes/Module/Settings.php:653
+msgid "Copy & paste your backup settings data."
+msgstr "قم بنسخ ولصق النسخة الإحتياطية من الإعدادات."
+
+#: includes/Module/Settings.php:654
+msgid "Import from File"
+msgstr "إستيراد من ملف"
+
+#: includes/Module/Settings.php:656
+msgid ""
+"WARNING! This will overwrite all existing settings, please proceed with "
+"caution!"
+msgstr "تحذير هام! هذا الخيار سوف يقوم بإستبدال كل الإعدادات الحالية!"
+
+#: includes/Module/Settings.php:657
+msgid "Export a Backup"
+msgstr "تصدير نسخة إحتياطية"
+
+#: includes/Module/Settings.php:658
+msgid "Save a backup from current settings data."
+msgstr "حفظ نسخة إحتياطية من الإعدادات الحالية."
+
+#: includes/Module/Settings.php:659
+msgid "Copy Data"
+msgstr "نسخ البيانات"
+
+#: includes/Module/Settings.php:660
+msgid "OR"
+msgstr "أو"
+
+#: includes/Module/Settings.php:661
+msgid "Download Data File"
+msgstr "تحميل ملف البيانات"
+
+#: includes/Module/Settings.php:675
+msgid "System Info"
+msgstr "معلومات الموقع"
+
+#: includes/Module/Settings.php:681
+#, php-format
+msgid "%1sSystem Info%2s"
+msgstr "%1sمعلومات الموقع%2s"
+
+#: includes/Module/Settings.php:681
+msgid "Copy Info"
+msgstr "نسخ"
+
+#: includes/Module/Settings.php:681
+msgid "Copied"
+msgstr "تم النسخ"
+
+#: includes/Module/Settings.php:687
+msgid "WordPress Environment"
+msgstr "معلومات ووردبريس"
+
+#: includes/Module/Settings.php:688
+msgid "Server Environment"
+msgstr "معلومات السيرفر"
+
+#: includes/Module/Settings.php:689
+msgid "Browser & Operating System"
+msgstr "المتصفح ونظام التشغيل"
+
+#: includes/Module/Settings.php:690
+msgid "Active Plugins"
+msgstr "الإضافات المفعلة"
+
+#: includes/Module/Settings.php:691
+msgid "Active Theme"
+msgstr "القالب المفعل"
+
+#: includes/Module/Settings.php:710
+#, php-format
+msgid "%sSupport"
+msgstr "%sالدعم الفنى"
+
+#: includes/Module/Settings.php:714
+msgid ""
+"Have any questions? Something is not clear enough? <br> Do not hesitate to "
+"contact us via support platform. We reply on all questions as soon as "
+"possible!"
+msgstr ""
+"هل لديك أى أسئلة أو مشكلة؟ أو يوجد شئ غير واضح بشكل جيد؟ <br> يمكنك التواصل "
+"معنا عبر موقع الدعم الفنى. نقوم بالرد على جميع الاسئلة فى أقرب وقت ممكن!"
+
+#: includes/Module/Settings.php:714
+msgid "Documentation"
+msgstr "توثيق الإضافة"
+
+#: includes/Module/Settings.php:733
+#, php-format
+msgid "%sFeedback"
+msgstr "%sرأيك يهمنا"
+
+#: includes/Module/Settings.php:737
+msgid ""
+"We would love to hear your feedback. Tell us what features you want. <br>"
+"Many thanks for your valuable feedback!"
+msgstr ""
+"نرحب بجميع الإقتراحات والتعليقات. أخبرنا عن المميزات الإضافية التى تريدها فى "
+"الإضافة. <br> شكرا على مساهمتك فى تحسين وتطوير الإضافة!"
+
+#: includes/Module/Settings.php:737
+msgid "Send Feedback"
+msgstr "أرسل إقتراح"
+
+#: includes/Module/Status.php:209
+msgid "Title"
+msgstr "العنوان"
+
+#: includes/Module/Status.php:213
+msgid "Content"
+msgstr "المحتوى"
+
+#: includes/Module/Status.php:217
+msgid "Excerpt"
+msgstr "ملخص المحتوى"
+
+#: includes/Module/Status.php:281
+#, php-format
+msgid "Metabox \" %s \""
+msgstr "حقل مخصص \" %s \""
+
+#: includes/Module/Status.php:307
+msgid "Site Title"
+msgstr "اسم الموقع"
+
+#: includes/Module/Status.php:311
+msgid "Site Description"
+msgstr "سطر الوصف"
+
+#: includes/Module/Status.php:613
+msgid "Welcome to Shortcode Cleaner Dashboard"
+msgstr "مرحباً بك في لوحة تحكم Shortcode Cleaner"
+
+#: includes/Module/Status.php:614
+msgid "Refresh"
+msgstr "تحديث"
+
+#: includes/Module/Status.php:627
+msgid "Cleaner Status"
+msgstr "حالة الـ Cleaner"
+
+#: includes/Module/Status.php:639
+msgid "Woohoo! You don't have any broken shortcodes."
+msgstr "رائع! لا يوجد لديك Shortcodes غير مستخدمة أو معطلة."
+
+#: includes/Module/Status.php:642
+msgid "Broken Shortcodes Cleaned"
+msgstr "Shortcodes غير مستخدمة تم تنظيفها"
+
+#: includes/Module/Status.php:652
+msgid "Cleaner History"
+msgstr "إحصائيات الـ Cleaner"
+
+#: includes/Module/Status.php:657 includes/Module/Status.php:677
+msgid "Broken Shortcodes"
+msgstr "Shortcodes غير مستخدمة أو معطلة"
+
+#: includes/Module/Status.php:677
+msgid "Search"
+msgstr "إبحث"
+
+#: includes/Module/Status.php:703
+msgid "Details"
+msgstr "تفاصيل"
+
+#: includes/Module/Status.php:708
+msgid "This Broken Shortcode Found In"
+msgstr "تم العثور على تلك الـ Shortcode الغير مستخدمة أو المعطلة داخل"
+
+#: includes/Module/Status.php:716
+msgid "Post Title"
+msgstr "عنوان المقالة"
+
+#: includes/Module/Status.php:716
+msgid "Post Type"
+msgstr "نوع المقالة"
+
+#: includes/Module/Status.php:716
+msgid "Places"
+msgstr "أماكن التواجد"
+
+#: includes/Module/Status.php:720
+msgid "Sidebar Name"
+msgstr "إسم الـ Sidebar"
+
+#: includes/Module/Status.php:720
+msgid "Widgets"
+msgstr "الودجات"
+
+#: includes/Module/Status.php:724
+msgid "Menu Name"
+msgstr "إسم القائمة"
+
+#: includes/Module/Status.php:724
+msgid "Links"
+msgstr "الروابط"
+
+#: includes/Module/Status.php:728
+msgid "General Settings"
+msgstr "الإعدادات العامة"
+
+#: includes/Module/Status.php:728
+msgid "Options"
+msgstr "خيارات"
+
+#: includes/Module/Status.php:849 includes/Module/Status.php:849
+#: includes/Module/Status.php:861 includes/Module/Status.php:861
+#: includes/Module/Status.php:873 includes/Module/Status.php:873
+#: includes/Module/Status.php:885
+msgid "Edit"
+msgstr "تعديل"
+
+#: includes/Module/Status.php:885 includes/Module/Status.php:885
+msgid "View"
+msgstr "مشاهدة"

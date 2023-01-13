@@ -1,0 +1,571 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shortcode Cleaner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-07 15:41+0000\n"
+"PO-Revision-Date: 2018-02-07 15:41+0000\n"
+"Last-Translator: admin <mandooox@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/Init.php:116 includes/Module/Settings.php:320
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Init.php:119
+msgid "Go Pro"
+msgstr ""
+
+#: includes/Core/functions.php:31
+#, php-format
+msgid ""
+"<p><strong>%1$s</strong> plugin can not be activated because it requires a "
+"<strong>WordPress</strong> version at least <strong>%2$s</strong> (or later)."
+" Please go to Dashboard &#9656; Updates to get the latest version of "
+"WordPress.</p>"
+msgstr ""
+
+#: includes/Core/functions.php:62
+#, php-format
+msgid ""
+"<p><strong>%1$s</strong> plugin can not be activated because it requires a "
+"<strong>PHP</strong> version at least <strong>%2$s</strong> (or later). "
+"Please contact with your hosting provider company to upgrade it to this "
+"version at least.</p>"
+msgstr ""
+
+#: includes/Module/Settings.php:51
+msgid "Upgrade Now!"
+msgstr ""
+
+#: includes/Module/Settings.php:56
+#, php-format
+msgid "Version %1s, by %2s"
+msgstr ""
+
+#: includes/Module/Settings.php:59
+msgid "Save Changes"
+msgstr ""
+
+#: includes/Module/Settings.php:60
+msgid "Reset Section"
+msgstr ""
+
+#: includes/Module/Settings.php:61
+msgid "Reset All"
+msgstr ""
+
+#: includes/Module/Settings.php:62
+#, php-format
+msgid "%s Settings Saved"
+msgstr ""
+
+#: includes/Module/Settings.php:63
+msgid "Saving..."
+msgstr ""
+
+#: includes/Module/Settings.php:64
+msgid "Settings saved."
+msgstr ""
+
+#: includes/Module/Settings.php:65
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: includes/Module/Settings.php:66
+msgid "Default options restored."
+msgstr ""
+
+#: includes/Module/Settings.php:67
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: includes/Module/Settings.php:68
+msgid "show all options"
+msgstr ""
+
+#: includes/Module/Settings.php:178 includes/Module/Settings.php:714
+#: includes/Module/Settings.php:737
+msgid "Homepage"
+msgstr ""
+
+#: includes/Module/Settings.php:179 includes/Module/Settings.php:704
+#: includes/Module/Settings.php:714
+msgid "Support"
+msgstr ""
+
+#: includes/Module/Settings.php:180 includes/Module/Settings.php:727
+msgid "Feedback"
+msgstr ""
+
+#: includes/Module/Settings.php:337
+msgid "Settings"
+msgstr ""
+
+#: includes/Module/Settings.php:344
+msgid "General"
+msgstr ""
+
+#: includes/Module/Settings.php:350
+#, php-format
+msgid "%sGeneral Settings"
+msgstr ""
+
+#: includes/Module/Settings.php:357
+msgid "Enable Cleaner on the Frontend"
+msgstr ""
+
+#: includes/Module/Settings.php:358
+msgid "clean the frontend site content."
+msgstr ""
+
+#: includes/Module/Settings.php:360
+msgid ""
+"Cleaner will just hide this broken shotcodes from any frontend site content "
+"without remove it."
+msgstr ""
+
+#: includes/Module/Settings.php:361 includes/Module/Settings.php:403
+#: includes/Module/Settings.php:438 includes/Module/Settings.php:455
+#: includes/Module/Settings.php:547 includes/Module/Settings.php:581
+#: includes/Module/Settings.php:599 includes/Module/Settings.php:617
+msgid "ON"
+msgstr ""
+
+#: includes/Module/Settings.php:362 includes/Module/Settings.php:404
+#: includes/Module/Settings.php:439 includes/Module/Settings.php:456
+#: includes/Module/Settings.php:548 includes/Module/Settings.php:582
+#: includes/Module/Settings.php:600 includes/Module/Settings.php:618
+msgid "OFF"
+msgstr ""
+
+#: includes/Module/Settings.php:369
+msgid "Ignore this broken Shortcodes from Cleaning"
+msgstr ""
+
+#: includes/Module/Settings.php:370 includes/Module/Settings.php:412
+#: includes/Module/Settings.php:470
+#, php-format
+msgid "%1sseparate shortcode tags with commas%2s"
+msgstr ""
+
+#: includes/Module/Settings.php:371
+msgid ""
+"Cleaner will not clean this broken shotcodes and let it appear as normal "
+"broken."
+msgstr ""
+
+#: includes/Module/Settings.php:377 includes/Module/Settings.php:392
+#: includes/Module/Settings.php:420 includes/Module/Settings.php:479
+msgid "Add"
+msgstr ""
+
+#: includes/Module/Settings.php:384
+msgid "Show broken Shortcodes within this HTML code tags"
+msgstr ""
+
+#: includes/Module/Settings.php:385
+#, php-format
+msgid "%1sseparate HTML code tags with commas%2s"
+msgstr ""
+
+#: includes/Module/Settings.php:386
+msgid "Cleaner will not clean any broken shotcodes within this HTML code tags."
+msgstr ""
+
+#: includes/Module/Settings.php:399
+msgid "Clean all broken Shortcodes Content"
+msgstr ""
+
+#: includes/Module/Settings.php:400
+msgid "clean any content within broken shortcodes."
+msgstr ""
+
+#: includes/Module/Settings.php:401 includes/Module/Settings.php:413
+msgid ""
+"In normal we keep any content between broken shortcods if exists after "
+"cleaning, but here you can clean broken shortcodes content also."
+msgstr ""
+
+#: includes/Module/Settings.php:411
+msgid "Clean this broken Shortcodes Content"
+msgstr ""
+
+#: includes/Module/Settings.php:427 includes/Module/Settings.php:536
+#, php-format
+msgid "%1sUpgrade to %2sShortcode Cleaner Pro%3s to Unlock this Features.%4s"
+msgstr ""
+
+#: includes/Module/Settings.php:434
+msgid "Enable Cleaner on the Backend"
+msgstr ""
+
+#: includes/Module/Settings.php:435
+msgid "clean the backend admin content."
+msgstr ""
+
+#: includes/Module/Settings.php:437
+msgid ""
+"Cleaner will just hide this broken shotcodes from any backend admin content, "
+"until you update or save the cleaned content, after that all this broken "
+"shortcodes will be removed completely."
+msgstr ""
+
+#: includes/Module/Settings.php:452
+msgid "Show broken Shortcodes Status in Admin Bar"
+msgstr ""
+
+#: includes/Module/Settings.php:453
+msgid "show unused broken shortcodes status."
+msgstr ""
+
+#: includes/Module/Settings.php:469
+msgid "Force this active Shortcodes to be broken (inactive)"
+msgstr ""
+
+#: includes/Module/Settings.php:471
+msgid "Cleaner will clean this active broken shotcodes."
+msgstr ""
+
+#: includes/Module/Settings.php:489
+msgid "Advanced"
+msgstr ""
+
+#: includes/Module/Settings.php:495
+#, php-format
+msgid "%sAdvanced Settings"
+msgstr ""
+
+#: includes/Module/Settings.php:502
+msgid "Available default Frontend Site WP Content Filters"
+msgstr ""
+
+#: includes/Module/Settings.php:503 includes/Module/Settings.php:596
+msgid "Cleaner use this default WordPress filters when cleaning."
+msgstr ""
+
+#: includes/Module/Settings.php:505
+msgid ""
+"Cleaner use this frontend WP filters to clean its Content from broken "
+"Shortcodes, so here you can enable or disable any filter from cleaning its "
+"content."
+msgstr ""
+
+#: includes/Module/Settings.php:543
+msgid "Enable Cleaner into the Database"
+msgstr ""
+
+#: includes/Module/Settings.php:544
+msgid "clean the content into database"
+msgstr ""
+
+#: includes/Module/Settings.php:545
+msgid ""
+"Cleaner will clean the content into database and any broken shortcodes will "
+"be removed completely."
+msgstr ""
+
+#: includes/Module/Settings.php:562
+msgid "Determine Upper Limit for Number of Posts"
+msgstr ""
+
+#: includes/Module/Settings.php:563
+#, php-format
+msgid "%1s define number of posts to be cleaned, default is: %2s %3s"
+msgstr ""
+
+#: includes/Module/Settings.php:564
+msgid ""
+"Cleaner will clean the content into database for this max number of posts if "
+"contain any broken shortcodes, you can increase this number to clean more "
+"posts if you have, also posts here mean (posts, pages, custom post types)."
+msgstr ""
+
+#: includes/Module/Settings.php:565
+msgid "posts here mean (posts, pages, custom post types)"
+msgstr ""
+
+#: includes/Module/Settings.php:577
+msgid "Enable custom Frontend Site Content Filters"
+msgstr ""
+
+#: includes/Module/Settings.php:578
+msgid "add new custom frontend site content filters"
+msgstr ""
+
+#: includes/Module/Settings.php:579 includes/Module/Settings.php:615
+msgid ""
+"Here you can add new custom content filters from WP or any custom Plugin or "
+"Theme to let cleaner clean this filter content."
+msgstr ""
+
+#: includes/Module/Settings.php:595
+msgid "Available default Backend Admin WP Content Filters"
+msgstr ""
+
+#: includes/Module/Settings.php:597
+msgid ""
+"Cleaner use this backend WP filters to clean its Content from broken "
+"Shortcodes, so here you can enable or disable any filter from cleaning its "
+"content."
+msgstr ""
+
+#: includes/Module/Settings.php:613
+msgid "Enable custom Backend Admin Content Filters"
+msgstr ""
+
+#: includes/Module/Settings.php:614
+msgid "add new custom backend admin content filters"
+msgstr ""
+
+#: includes/Module/Settings.php:640
+msgid "Backup"
+msgstr ""
+
+#: includes/Module/Settings.php:646
+#, php-format
+msgid "%sBackup"
+msgstr ""
+
+#: includes/Module/Settings.php:652 includes/Module/Settings.php:655
+msgid "Import a Backup"
+msgstr ""
+
+#: includes/Module/Settings.php:653
+msgid "Copy & paste your backup settings data."
+msgstr ""
+
+#: includes/Module/Settings.php:654
+msgid "Import from File"
+msgstr ""
+
+#: includes/Module/Settings.php:656
+msgid ""
+"WARNING! This will overwrite all existing settings, please proceed with "
+"caution!"
+msgstr ""
+
+#: includes/Module/Settings.php:657
+msgid "Export a Backup"
+msgstr ""
+
+#: includes/Module/Settings.php:658
+msgid "Save a backup from current settings data."
+msgstr ""
+
+#: includes/Module/Settings.php:659
+msgid "Copy Data"
+msgstr ""
+
+#: includes/Module/Settings.php:660
+msgid "OR"
+msgstr ""
+
+#: includes/Module/Settings.php:661
+msgid "Download Data File"
+msgstr ""
+
+#: includes/Module/Settings.php:675
+msgid "System Info"
+msgstr ""
+
+#: includes/Module/Settings.php:681
+#, php-format
+msgid "%1sSystem Info%2s"
+msgstr ""
+
+#: includes/Module/Settings.php:681
+msgid "Copy Info"
+msgstr ""
+
+#: includes/Module/Settings.php:681
+msgid "Copied"
+msgstr ""
+
+#: includes/Module/Settings.php:687
+msgid "WordPress Environment"
+msgstr ""
+
+#: includes/Module/Settings.php:688
+msgid "Server Environment"
+msgstr ""
+
+#: includes/Module/Settings.php:689
+msgid "Browser & Operating System"
+msgstr ""
+
+#: includes/Module/Settings.php:690
+msgid "Active Plugins"
+msgstr ""
+
+#: includes/Module/Settings.php:691
+msgid "Active Theme"
+msgstr ""
+
+#: includes/Module/Settings.php:710
+#, php-format
+msgid "%sSupport"
+msgstr ""
+
+#: includes/Module/Settings.php:714
+msgid ""
+"Have any questions? Something is not clear enough? <br> Do not hesitate to "
+"contact us via support platform. We reply on all questions as soon as "
+"possible!"
+msgstr ""
+
+#: includes/Module/Settings.php:714
+msgid "Documentation"
+msgstr ""
+
+#: includes/Module/Settings.php:733
+#, php-format
+msgid "%sFeedback"
+msgstr ""
+
+#: includes/Module/Settings.php:737
+msgid ""
+"We would love to hear your feedback. Tell us what features you want. <br>"
+"Many thanks for your valuable feedback!"
+msgstr ""
+
+#: includes/Module/Settings.php:737
+msgid "Send Feedback"
+msgstr ""
+
+#: includes/Module/Status.php:209
+msgid "Title"
+msgstr ""
+
+#: includes/Module/Status.php:213
+msgid "Content"
+msgstr ""
+
+#: includes/Module/Status.php:217
+msgid "Excerpt"
+msgstr ""
+
+#: includes/Module/Status.php:281
+#, php-format
+msgid "Metabox \" %s \""
+msgstr ""
+
+#: includes/Module/Status.php:307
+msgid "Site Title"
+msgstr ""
+
+#: includes/Module/Status.php:311
+msgid "Site Description"
+msgstr ""
+
+#: includes/Module/Status.php:613
+msgid "Welcome to Shortcode Cleaner Dashboard"
+msgstr ""
+
+#: includes/Module/Status.php:614
+msgid "Refresh"
+msgstr ""
+
+#: includes/Module/Status.php:627
+msgid "Cleaner Status"
+msgstr ""
+
+#: includes/Module/Status.php:639
+msgid "Woohoo! You don't have any broken shortcodes."
+msgstr ""
+
+#: includes/Module/Status.php:642
+msgid "Broken Shortcodes Cleaned"
+msgstr ""
+
+#: includes/Module/Status.php:652
+msgid "Cleaner History"
+msgstr ""
+
+#: includes/Module/Status.php:657 includes/Module/Status.php:677
+msgid "Broken Shortcodes"
+msgstr ""
+
+#: includes/Module/Status.php:677
+msgid "Search"
+msgstr ""
+
+#: includes/Module/Status.php:703
+msgid "Details"
+msgstr ""
+
+#: includes/Module/Status.php:708
+msgid "This Broken Shortcode Found In"
+msgstr ""
+
+#: includes/Module/Status.php:716
+msgid "Post Title"
+msgstr ""
+
+#: includes/Module/Status.php:716
+msgid "Post Type"
+msgstr ""
+
+#: includes/Module/Status.php:716
+msgid "Places"
+msgstr ""
+
+#: includes/Module/Status.php:720
+msgid "Sidebar Name"
+msgstr ""
+
+#: includes/Module/Status.php:720
+msgid "Widgets"
+msgstr ""
+
+#: includes/Module/Status.php:724
+msgid "Menu Name"
+msgstr ""
+
+#: includes/Module/Status.php:724
+msgid "Links"
+msgstr ""
+
+#: includes/Module/Status.php:728
+msgid "General Settings"
+msgstr ""
+
+#: includes/Module/Status.php:728
+msgid "Options"
+msgstr ""
+
+#: includes/Module/Status.php:849 includes/Module/Status.php:849
+#: includes/Module/Status.php:861 includes/Module/Status.php:861
+#: includes/Module/Status.php:873 includes/Module/Status.php:873
+#: includes/Module/Status.php:885
+msgid "Edit"
+msgstr ""
+
+#: includes/Module/Status.php:885 includes/Module/Status.php:885
+msgid "View"
+msgstr ""
+
+#. Name of the plugin
+msgid "Shortcode Cleaner Lite"
+msgstr ""
+
+#. Description of the plugin
+msgid "Clean your WordPress content from unused broken shortcodes."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://plugins.jozoor.com/shortcode-cleaner"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jozoor"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://jozoor.com/"
+msgstr ""

@@ -1,0 +1,591 @@
+/**
+ * Shortcode Cleaner Lite
+ * Clean your WordPress content from unused broken shortcodes.
+ *
+ * @package   Shortcode_Cleaner_Lite
+ * @author    Jozoor, mohamdio [jozoor.com]
+ * @link      https://plugins.jozoor.com/shortcode-cleaner
+ * @copyright 2017 Jozoor, mohamdio [jozoor.com]
+ * @license   GPL2
+ * @version   1.0.0
+ *
+ * @since  1.0.0
+ */
+
+.cs-framework .cs-header fieldset input {
+	display: none;
+}
+
+.cs-framework .cs-content .cs-sections {
+	width: 96%; /* 95% */
+    margin: 2.5% 2%; /* 2.5% */
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.cs-sections .cs-element {
+	padding: 0 0 15px;
+}
+
+.cs-framework .cs-content .cs-sections.normal {
+	width: 90.8%; /* 90% */
+    margin: 2.5% 2%; /* 2.5% */
+    padding: 1.5% 2.5%;
+    background: #fff;
+    border: 1px solid #F4F4F4;
+    border-radius: 2px;
+}
+
+.cs-framework .cs-content .cs-sections.normal .cs-element {
+	padding: 50px 0 45px;
+}
+
+.cs-field-heading {
+	padding: 5px 0 30px !important;
+}
+
+.cs-field-backup .cs-field-backup-buttons.import {
+    padding-top: 15px !important;
+}
+
+.cs-field-group .cs-element {
+	padding: 20px !important;
+}
+
+/**
+ * Fonts
+ */
+
+/**
+ * Dashboard styles
+ */
+.cs-framework .sc-welcome-dashboard, .cs-framework .sc-welcome-center .sc-data, .cs-framework .sc-welcome-dashboard h4, .cs-framework .sc-welcome-dashboard h3, .cs-framework .sc-welcome-dashboard h2, .cs-framework .sc-welcome-dashboard h1, #sc-broken-shortcode-tag .load-shortcode-details table, .cs-framework .cs-header fieldset a.sc-header-links {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400 !important; /* medium */
+}
+
+.cs-framework .sc-welcome-top h1, .cs-framework .sc-data h3, .cs-framework .cleaner-status .status-data-number .broken-shortcodes, #sc-broken-shortcode-tag .load-shortcode-details h4 {
+ 	font-family: 'Poppins', sans-serif;
+	font-weight: 500 !important; /* medium */
+ }
+
+.cs-framework .sc-welcome-top {
+	padding: 0 0 15px;
+}
+
+.cs-framework .sc-welcome-top h1 {
+	font-size: 23px;
+	margin-top: 10px;
+	color: #424242;
+	float: left;
+}
+
+.cs-framework .sc-welcome-top fieldset {
+	float: right;
+	border: 0;
+    margin: inherit;
+    padding: inherit;
+}
+
+.cs-framework .sc-welcome-top fieldset .button {
+	background: #fcfcfc;
+    border: 1px solid #E2E2E2;
+    box-shadow: none;
+    color: #747474;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 18px 1px;
+    border-radius: 2px;
+    text-shadow: none;
+}
+
+.cs-framework .sc-welcome-top fieldset .button:hover {
+	background-color: #fff;
+}
+
+.cs-framework .sc-welcome-top fieldset .button i {
+	padding-right: 5px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.cs-framework .sc-welcome-center .sc-data {
+	background-color: #fff;
+	border: 1px solid #F4F4F4;
+	border-radius: 2px;
+	padding: 20px 35px;
+    margin-right: 4%;
+    margin-bottom: 20px;
+}
+
+.cs-framework .sc-welcome-center .pure-g div:last-child .sc-data{
+	margin-right: 0;
+	height: 298px;
+	max-height: 298px;
+	min-height: 298px;
+}
+
+.cs-framework .sc-welcome-center .cleaner-history-data {
+	height: 211px;
+	max-height: 211px;
+	min-height: 211px;
+}
+
+.cs-framework .sc-data h3 {
+	font-size: 18px;
+	color: #4D4D4D;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #F1F1F1;
+	margin-bottom: 20px;
+}
+
+.cs-framework .cleaner-status .cleaner-status-data {
+	padding: 28px 0 22px;
+}
+
+.cs-framework .cleaner-status .status-data-scan, .cs-framework .cleaner-status .status-data-number {
+	display: inline-block;
+	text-align: center;
+	width: 43%;
+	vertical-align: middle;
+	padding: 0 3%;
+}
+
+.cs-framework .cleaner-status .status-data-scan {
+	border-right: 1px solid #F1F1F1;
+}
+
+.cs-framework .cleaner-status .status-data-number .broken-shortcodes {
+	font-size: 52px;
+	color: #DB4545;
+	margin-bottom: 40px;
+	margin-top: 32px;
+}
+
+.cs-framework .cleaner-status .status-data-number .broken-shortcodes.none {
+	font-size: 15px;
+    color: #858585;
+    line-height: 25px;
+    font-weight: 400 !important;
+}
+
+.cs-framework .cleaner-status .status-data-number .broken-shortcodes.none i {
+	margin: 0 10px;
+    font-size: 30px;
+    color: #74AD27;
+    display: inherit;
+    margin-bottom: 18px;
+}
+
+.cs-framework #shortcode-cleaner-dashboard.sc-run .cleaner-status .status-data-number, .cs-framework #shortcode-cleaner-dashboard.sc-run .sc-broken-shortcodes, .cs-framework #shortcode-cleaner-dashboard .sc-broken-shortcodes.hide, .cs-framework #shortcode-cleaner-dashboard.sc-run .cleaner-history-data {
+	display: none;
+}
+
+.cs-framework .cleaner-history .sc-data-loading {
+	text-align: center;
+	color: #c7c6c6;
+	display: none;
+	padding: 16% 0;
+}
+
+.cs-framework #shortcode-cleaner-dashboard.sc-run .cleaner-status .status-data-scan {
+	border-right: 0;
+	width: 100%;
+}
+
+.cs-framework .cleaner-status .status-data-number .broken-title {
+	font-size: 15px;
+	color: #858585;
+}
+
+.cs-framework .cleaner-status .status-data-scan #scan-process {
+	width: 161px;
+	height: 161px;
+	position: relative;
+	display: inline-block;
+	font-size: 33px;
+}
+
+.cs-framework .sc-broken-shortcodes .sc-data {
+	background-color: #fff;
+	border: 1px solid #F4F4F4;
+	border-radius: 2px;
+	padding: 20px 35px;
+	margin-top: 10px;
+}
+
+.cs-framework .cleaner-history-data {
+	padding-top: 5px;
+}
+
+/**
+ * broken shortcodes tags
+ */
+
+.cs-framework .broken-shortcodes-list {
+	padding: 20px 0;
+}
+
+.cs-framework .sc-broken-shortcodes #search-broken-shortcode {
+	float: right;
+	position: relative;
+	margin-top: -12px;
+}
+
+.cs-framework .sc-broken-shortcodes #search-broken-shortcode input {
+	font-size: 14px;
+	margin: 0;
+    min-width: 250px;
+    height: 37px;
+    padding-right: 30px;
+    color: #7F7F7F;
+}
+
+.cs-framework .sc-broken-shortcodes #search-broken-shortcode i {
+	position: absolute;
+	right: 12px;
+    top: 12px;
+    font-size: 14px;
+	color: #7F7F7F;
+}
+
+.cs-framework .broken-shortcodes-list .broken-shortcode-tag {
+	margin-right: 4%;
+}
+
+.cs-framework .broken-shortcodes-list .pure-g div:nth-child(3n) .broken-shortcode-tag {
+	margin-right: 0;
+}
+
+.cs-framework .broken-shortcodes-list .broken-shortcode-tag .sc-tag-item {
+	padding: 15px 20px;
+	background-color: #F8F8F8;
+	border: 1px solid #f1f1f1;
+	border-radius: 2px;
+	color: #6B6B6B;
+	font-size: 15.5px;
+	margin-bottom: 20px;
+}
+
+.cs-framework .broken-shortcodes-list .broken-shortcode-tag .sc-tag-item:hover {
+	background-color: #fefefe;
+	border: 1px solid #F4F4F4;
+	color: #4D4D4D;
+}
+
+.cs-framework .broken-shortcodes-list .broken-shortcode-tag .sc-tag-item .sc-tag-name {
+	
+}
+
+.cs-framework .broken-shortcodes-list .broken-shortcode-tag .sc-tag-item .sc-show-details {
+	cursor: pointer;
+	float: right;
+	color: #A9A9A9;
+	padding: 0;
+	padding-left: 20px;
+	position: inherit;
+	font-size: 15px;
+}
+
+.cs-framework .broken-shortcodes-list .broken-shortcode-tag .sc-tag-details {
+	display: none;
+}
+
+.toplevel_page_sc_shortcode_cleaner .ui-dialog-titlebar {
+	background: #F8F8F8;
+	color: #6B6B6B;
+    font-size: 16px;
+    padding: 5px 36px 5px 16px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.toplevel_page_sc_shortcode_cleaner .ui-button.ui-dialog-titlebar-close {
+	top: 5px;
+	right: 5px;
+}
+#sc-broken-shortcode-tag {
+	overflow: hidden;
+    overflow-y: auto;
+    max-height: 600px !important;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details {
+	padding: 20px;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details h4 {
+	margin: 5px 0 20px;
+    font-size: 14px;
+    color: #4D4D4D;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table {
+	width: 100%;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 25px;
+    color: #6B6B6B;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table thead {
+	background-color: #F8F8F8;
+	border-bottom: 1px solid #e6e6e6;
+	color: #4D4D4D;
+	font-weight: normal;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table td, #sc-broken-shortcode-tag .load-shortcode-details table th {
+	padding: 1em 1.5em;
+	border-left: 1px solid #e6e6e6;
+	text-align: center;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details .pure-table-bordered td {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table a {
+	color: #74AD27;
+	text-decoration: none;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table a:hover {
+	color: #6B6B6B;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table td:first-child a {
+	color: #6B6B6B;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table td:first-child a:hover, #sc-broken-shortcode-tag .load-shortcode-details table td:first-child:hover a {
+	color: #74AD27;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table td i {
+	font-size: 14.5px;
+	padding: 0 5px;
+}
+
+#sc-broken-shortcode-tag .load-shortcode-details table td:first-child, #sc-broken-shortcode-tag .load-shortcode-details table th:first-child {
+    border-left-width: 0;
+    text-align: inherit;
+}
+
+.cs-framework .cs-footer a {
+	letter-spacing: 1px;
+}
+
+.cs-framework .cs-footer a:hover {
+ 	color: #84B542;
+ }
+
+.cs-footer .sc-social, .cs-footer .sc-social a {
+    display: inline-block;
+}
+
+.cs-footer .sc-social a {
+    margin: 0 0 0 24px;
+    font-size: 16px;
+}
+
+.sc-support-content h3 {
+	line-height: 40px;
+    margin: 0 0 30px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.cs-framework .cs-header fieldset a.sc-header-links, .sc-support-content a {
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 0 0 7px;
+    font-size: 13px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #282828;
+    padding: 9px 12px;
+    color: #8C8C8C;
+    border: 1px solid #2b2b2b;
+}
+
+.cs-framework .cs-header fieldset a.sc-header-links i, .sc-support-content a i {
+	margin-right: 5px;
+}
+
+.cs-framework .cs-header fieldset a.sc-header-links:hover {
+	color: #fff;
+    background-color: #232323;
+}
+
+.cs-framework .cs-header fieldset a.sc-header-links:hover i, .sc-support-content a i {
+    color: #84B542;
+}
+
+/* remove outline on active or focus */
+.cs-framework a:active, .cs-framework a:focus, .cs-framework a {
+	box-shadow: none;
+}
+
+.sc-support-content a {
+	margin: 0 10px 0 0;
+	background: #fcfcfc;
+    border: 1px solid #E2E2E2;
+    color: #747474;
+    padding: 9px 15px;
+}
+
+.sc-support-content a:hover {
+	background: #fff;
+    border: 1px solid #E2E2E2;
+    color: #5f5f5f;
+}
+
+/* new lite styles */
+.cs-framework .sc-upgrade-notice {
+	font-size: 13.2px;
+	color: #252525;
+}
+
+.cs-framework .sc-upgrade-notice a {
+	text-decoration: none;
+    color: #427543;
+    font-size: 14px;
+    letter-spacing: .2px;
+}
+
+.cs-framework .sc-upgrade-notice i {
+	font-size: 17px;
+    color: #427543;
+    margin: 0 4px;
+}
+
+.cs-framework .sc-pro-features {
+	opacity: 0.5;
+}
+
+.cs-framework .sc-upgrade-now {
+	text-decoration: none;
+    display: inline-block;
+    margin: 2px 0 0 7px;
+    font-size: 13px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #84B542;
+    padding: 9px 12px 9px 9px;
+    color: #fff;
+    line-height: 15px;
+    font-weight: 400;
+    vertical-align: top;
+}
+
+/**
+ * Media query
+ */
+@media only screen and (max-width: 1680px) and (min-width: 1280px) {
+	.cs-framework .cleaner-status .status-data-number .broken-title {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.cs-framework .sc-welcome-center .sc-data {
+		padding: 10px 25px 20px;
+	    margin-right: 3%;
+	    margin-bottom: 6px;
+	    height: 298px;
+        max-height: 298px;
+        min-height: 298px;
+	}
+	.cs-framework .sc-broken-shortcodes .sc-data {
+		padding: 10px 25px 20px;
+	}
+	.cs-framework .cleaner-status .status-data-scan #scan-process {
+		width: 131px;
+        height: 131px;
+        font-size: 25px;
+	}
+	.cs-framework .cleaner-status .cleaner-status-data {
+		padding: 33px 0 22px;
+	}
+	.cs-framework .sc-welcome-top h1 {
+		font-size: 20px;
+	}
+	.cs-framework .sc-broken-shortcodes .sc-data h3 {
+		padding-bottom: 17px;
+	}
+	.cs-framework .broken-shortcodes-list {
+		padding: 10px 0 0;
+	}
+	.cs-framework .broken-shortcodes-list .broken-shortcode-tag .sc-tag-item {
+		padding: 15px 10px;
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	.cs-framework .cleaner-history .sc-data-loading {
+		padding: 18% 0;
+	}
+	.cs-framework .sc-welcome-top {
+		padding: 0 0 10px;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.cs-framework .cleaner-status .status-data-number .broken-title {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.cs-framework .sc-welcome-center .sc-data {
+		padding: 10px 25px 20px;
+	    margin-right: 0;
+	    margin-bottom: 15px;
+	    height: 278px;
+        max-height: 278px;
+        min-height: 278px;
+	}
+	.cs-framework .sc-broken-shortcodes .sc-data {
+		padding: 10px 25px 20px;
+	}
+	.cs-framework .cleaner-status .status-data-scan #scan-process {
+		width: 131px;
+        height: 131px;
+        font-size: 25px;
+	}
+	.cs-framework .cleaner-status .cleaner-status-data {
+		padding: 33px 0 22px;
+	}
+	.cs-framework .sc-welcome-top h1 {
+		font-size: 20px;
+	}
+	.cs-framework .sc-broken-shortcodes .sc-data h3 {
+		padding-bottom: 17px;
+	}
+	.cs-framework .broken-shortcodes-list {
+		padding: 10px 0 0;
+	}
+	.cs-framework .broken-shortcodes-list .broken-shortcode-tag .sc-tag-item {
+		padding: 15px 10px;
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	.cs-framework .cleaner-history .sc-data-loading {
+		padding: 18% 0;
+	}
+	.cs-framework .sc-welcome-center .pure-g div:last-child .sc-data {
+		margin-bottom: 5px;
+	}
+	.cs-framework .broken-shortcodes-list .pure-g div:nth-child(3n) .broken-shortcode-tag {
+		margin-right: 3.5%;
+	}
+	.cs-framework .broken-shortcodes-list .pure-g div:nth-child(2n) .broken-shortcode-tag {
+		margin-right: 0;
+	}
+    .cs-framework .sc-welcome-top {
+		padding: 0 0 10px;
+	}
+	.cs-framework .sc-welcome-top h1 {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 782px) {
+	
+}

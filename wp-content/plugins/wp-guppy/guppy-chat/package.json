@@ -1,0 +1,63 @@
+{
+  "name": "wp-guppy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build:SomeComponent": "vue build src/some_component/index.vue --watch --prod --lib SomeComponent --dist custom/dist/path/some_component"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "core-js": "^3.20.1",
+    "dateformat": "^5.0.2",
+    "emoji-mart-vue-fast": "^10.2.0",
+    "jquery": "^3.6.0",
+    "leaflet": "^1.7.1",
+    "moment": "^2.29.1",
+    "pusher-js": "^7.0.3",
+    "socket.io-client": "^4.4.0",
+    "vue": "^2.6.11",
+    "vue-audio-better": "^3.0.1",
+    "vue-axios": "^3.4.0",
+    "vue-croppie": "^2.0.2",
+    "vue-linkify": "^1.0.1",
+    "vue-runtime-template-compiler": "^1.3.0",
+    "vue-sweetalert2": "^5.0.2",
+    "vue-video-player": "^5.0.2",
+    "vue2-leaflet": "^2.7.1",
+    "vue2-leaflet-fullscreen": "^1.0.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-mixed-spaces-and-tabs": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

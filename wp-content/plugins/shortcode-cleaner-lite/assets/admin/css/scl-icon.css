@@ -1,0 +1,22 @@
+/**
+ * Shortcode Cleaner Lite
+ * Clean your WordPress content from unused broken shortcodes.
+ *
+ * @package   Shortcode_Cleaner_Lite
+ * @author    Jozoor, mohamdio [jozoor.com]
+ * @link      https://plugins.jozoor.com/shortcode-cleaner
+ * @copyright 2017 Jozoor, mohamdio [jozoor.com]
+ * @license   GPL2
+ * @version   1.0.0
+ *
+ * @since  1.0.0
+ */
+
+#adminmenu li#toplevel_page_sc_shortcode_cleaner .wp-menu-image img, #adminmenu li[id*="sc_shortcode_cleaner"] .wp-menu-image img {
+	width: 19px;
+    padding-top: 6px;
+}
+
+#adminmenu li.current#toplevel_page_sc_shortcode_cleaner .wp-menu-image img, #adminmenu li.current[id*="sc_shortcode_cleaner"] .wp-menu-image img {
+	opacity: 1;
+}

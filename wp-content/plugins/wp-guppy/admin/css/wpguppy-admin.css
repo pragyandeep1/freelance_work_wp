@@ -1,0 +1,336 @@
+.toplevel_page_wpguppy_settings  #wpfooter{display:none;}
+#gb-report-user .gb-remove-reason{
+    text-decoration: none;
+    color: #EF4444;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+}
+#gb-report-user input + .gb-remove-reason{
+    margin-left: 10px;
+}
+
+.guppy-dashicons-yes code{
+    background: #e2ebe2;
+    border-radius: 5px;
+    padding: 3px 1px 2px 1px;
+}
+.guppy-dashicons-yes i{
+    color: #4caf50;
+    border-radius: 5px;
+}
+.guppy-dashicons-no-alt code{
+    background: #ffe6e4;
+    border-radius: 5px;
+    padding: 3px 1px 2px 1px;
+}
+.guppy-dashicons-no-alt i{
+    color: #f44336;
+    border-radius: 5px;
+}
+.guppy-auto-invite{
+    background: #fff;
+    display: inline-block;
+    padding: 10px 15px 15px;
+    border-radius: 4px;
+    margin: 5px 0 0;
+}
+.guppy-auto-invite p{
+    padding: 0 0 6px;
+    margin: 0 !important;
+}
+.jconfirm-box-container{
+	max-width: 380px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.jconfirm .jconfirm-box div.jconfirm-content-pane .jconfirm-content{overflow: visible !important;}
+/* General Settings Style */
+.at-chatroles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+  .at-chatroles_item {
+    width: 100%;
+    padding: 10px;
+    max-width: 33.33%;
+  }
+  
+  .at-chatrole {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  .at-chatrole_title {
+    padding: 10px 20px;
+    box-shadow: inset 0px -1px 0px #DDDDDD;
+  }
+  .at-chatrole_title h6 {
+    margin: 0;
+    font: 600 16px/26px "Urbanist", sans-serif;
+  }
+  .at-chatrole_head {
+    padding: 20px;
+  }
+  .at-roleoption {
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    background: #F7F8FC;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+  }
+  .at-roleoption_info {
+    display: flex;
+    align-items: center;
+  }
+  .at-roleoption_info i {
+    flex: none;
+    color: #999999;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .at-roleoption_info span {
+    color: #676767;
+    font-size: 13px;
+    line-height: 22px;
+    display: inline-block;
+  }
+  .at-roleoption ~ .at-roleoption {
+    margin-top: 10px;
+  }
+  .at-roleoption_radio {
+    flex: none;
+    margin-left: auto;
+    padding-left: 20px;
+  }
+  
+  .at-switchbtn {
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .at-switchbtn input[type=checkbox],
+  .at-switchbtn input[type=radio] {
+    display: none;
+  }
+  .at-switchbtn label {
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+  .at-switchbtn label span {
+    color: #484848;
+    margin: 0 11px 0 0;
+    text-transform: uppercase;
+    font: 600 14px/22px "Urbanist", sans-serif;
+  }
+  .at-switchbtn label i {
+    width: 34px;
+    height: 18px;
+    background: #fff;
+    position: relative;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1.5px solid #ddd;
+  }
+  .at-switchbtn label i:after {
+    content: "";
+    top: -2.5px;
+    width: 20px;
+    height: 20px;
+    left: -2.5px;
+    background: #ddd;
+    position: absolute;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .at-switchbtn label input:checked + i {
+    border-color: #22C55E;
+  }
+  
+  .at-switchbtn label input:checked + i:after {
+    left: calc(100% - -2.5px);
+    transform: translateX(-100%);
+    background: #22C55E;
+  }
+  
+  .at-roletabs {
+    padding: 20px 30px;
+  }
+  .at-roletabs_info {
+    margin: 0 0 20px;
+  }
+  .at-roletabs_info p {
+    margin: 0;
+    color: #676767;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .at-roletabs_search {
+    display: flex;
+    margin: 0 0 10px;
+    position: relative;
+    align-items: center;
+  }
+  .at-roletabs_search > i {
+    left: 18px;
+    color: #999;
+    font-size: 24px;
+    position: absolute;
+  }
+  .at-roletabs_search > input {
+    height: 48px;
+    width: 100%;
+    color: #0A0F26;
+    border-radius: 3px;
+    caret-color: #0A0F26;
+    background-clip: unset;
+    padding: 0 20px 0 49px;
+    letter-spacing: 0.005em;
+    font: 600 15px/24px "Open Sans", sans-serif;
+  }
+  .at-roletabs_search > input::placeholder {
+    color: #999;
+  }
+  .at-roletabs_search > input:focus {
+    outline: none;
+    color: #0A0F26;
+    border-color: #ddd;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .at-roletabs_list {
+    height: 440px;
+    overflow: auto;
+    list-style: none;
+  }
+  .at-roletabs_list::-webkit-scrollbar-track {
+    border-radius: 60px;
+    background-color: #F7F8FC;
+  }
+  .at-roletabs_list::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F7F8FC;
+    border-radius: 60px;
+  }
+  .at-roletabs_list::-webkit-scrollbar-thumb {
+    border-radius: 60px;
+    background-color: #999999;
+  }
+  .at-roletabs_list li {
+    line-height: inherit;
+    list-style-type: none;
+  }
+  
+  .at-checkbox input {
+    display: none;
+  }
+  .at-checkbox input:checked + label em {
+    background: #22C55E;
+    border-color: #22C55E;
+  }
+  .at-checkbox input:checked + label em:before {
+    opacity: 1;
+  }
+  .at-checkbox input + label {
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .at-checkbox input + label:hover {
+    background: #F7F8FC;
+  }
+  .at-checkbox input + label span {
+    color: #1C1C1C;
+    font: 600 15px/24px "Urbanist", sans-serif;
+  }
+  .at-checkbox input + label em {
+    flex: none;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    margin-right: 10px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1.5px solid #DDDDDD;
+    transition: all 0.3s ease-in-out;
+  }
+  .at-checkbox input + label em:before {
+    opacity: 0;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    margin-left: -4px;
+  }
+  .at-chatroles * {
+    box-sizing: border-box;
+  }
+  .at-chatroletabs_list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .at-chatroletabs_list a{
+    margin: 0;
+    flex: auto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 11px 20px;
+    text-align: center;
+    border: 0 !important;
+    display: inline-block;
+    color: #999 !important;
+    background-color: #fff !important;
+    box-shadow: inset 0px -1px 0px #DDDDDD;
+  }
+  .at-chatroletabs_list a.nav-tab-active{
+    color: #484848 !important;
+    box-shadow: inset 0px -2px 0px #5528B2;
+  }
+  .guppy-shortcode-bar{
+    margin: 20px 0 30px;
+  }
+  .guppy-shortcode-bar label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #23282d;
+    line-height: 30px;
+    margin-right: 10px;
+  }
+  .guppy-shortcode-bar input{
+    height: 50px;
+    padding: 0 20px;
+    vertical-align: middle;
+  }
+  .guppy-shortcode-bar button.gp-copy-code{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 10px 20px;
+    vertical-align: middle;
+  }
+  @media(max-width:1280px){
+    .at-chatroles_item{max-width: 50%;}
+  }
+  @media(max-width:767px){
+    .at-chatroles_item{max-width: 100%;}
+    .at-roletabs{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .at-roleoption{
+      padding: 9px;
+    }
+  }

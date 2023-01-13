@@ -1,0 +1,1678 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Guppy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-20 11:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.3\n"
+"X-Domain: wp-guppy"
+
+#: includes/functions.php:393
+msgid " and ((counter)) other members"
+msgstr ""
+
+#: includes/functions.php:361
+msgid "((username)) created this group"
+msgstr ""
+
+#: includes/functions.php:363
+msgid "((username)) update this group"
+msgstr ""
+
+#: includes/functions.php:273
+msgid "((username)): Sent a location"
+msgstr ""
+
+#: includes/functions.php:281
+msgid "((username)): Sent a voice note"
+msgstr ""
+
+#: includes/functions.php:263
+msgid "((username)): Sent an attachment"
+msgstr ""
+
+#: admin/settings/templates/translation-options.php:18
+msgid "((xxx)) for example ((username))"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:95
+msgid "1) Some server uses 80, 81, 8080 or 3000."
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:96
+msgid "2) Please consult with your hosting provider."
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:97
+msgid "3) No need to change the port if your server is using port 81."
+msgstr ""
+
+#: includes/functions.php:498
+msgid "3gp"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:99
+msgid ""
+"4) You have to add your host url as  CORS origin in .env file located in "
+"plugins > wp-guppy > node-server > .env at line DOMIAN"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:100
+msgid ""
+"5) You need to run the node server file (located in plugins > wp-guppy > "
+"node-server) on the server through server access like (SSH access), for this,"
+" you can contact your hosting service provider or your server manager. if "
+"you have an HTTP server then you need to just run the server.js file through "
+"the command ( nodemoon server.js ), but if you have an HTTPS server then you "
+"have to download an SSL certificate (SSL cert, SSL private key ) from your "
+"server then replace these files located in  plugins > wp-guppy > node-server "
+"> sslcert with the same name given in that folder, after that you need to "
+"run command nodemon server-ssl.js"
+msgstr ""
+
+#: includes/functions.php:531
+msgid "7zip"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:262
+msgid ""
+"<p>One license can only be used for your one live site, you can unlink this "
+"license to use our product to another server. You can check the license "
+"detail <a href=\"https://themeforest.net/licenses/standard\">here</a> </p>"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:260
+msgid ""
+"<p>To get all the functionality of WP Guppy, please verify your valid "
+"license copy. <a href=\"https://help.market.envato.com/hc/en-"
+"us/articles/202822600-Where-Is-My-Purchase-Code-\">How, i can find the "
+"purchase code</a>.</p>"
+msgstr ""
+
+#: includes/functions.php:464
+msgid "aac"
+msgstr ""
+
+#: includes/functions.php:137 includes/functions.php:138
+msgid "Accept"
+msgstr ""
+
+#: includes/functions.php:136
+msgid "Accept Friend Request"
+msgstr ""
+
+#: includes/functions.php:181 includes/functions.php:182
+msgid "Actions"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:84
+msgid "Activate license"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:43
+msgid ""
+"Add admin email address, leave this empty to use default email address from "
+"the WordPress settings"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:62
+msgid "Add APP cluster here"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:50
+msgid "Add APP Id here"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:54
+msgid "Add APP key here"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:58
+msgid "Add APP secret here"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:39
+msgid "Add bell URL"
+msgstr ""
+
+#: includes/functions.php:209 includes/functions.php:210
+msgid "Add description"
+msgstr ""
+
+#: includes/functions.php:388
+msgid "Add group member text"
+msgstr ""
+
+#: includes/functions.php:339
+msgid "Add group title"
+msgstr ""
+
+#: includes/functions.php:340
+msgid "Add group title text"
+msgstr ""
+
+#: admin/settings/templates/report-options.php:21
+msgid "Add reasons"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:41
+msgid "Add shortcode to use anywhere in the PHP files. Like below code"
+msgstr ""
+
+#: includes/functions.php:327 includes/functions.php:351
+msgid "ADMIN"
+msgstr ""
+
+#: includes/functions.php:387
+msgid "Admin added “((username))” to this group"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:40
+msgid "Admin email"
+msgstr ""
+
+#: includes/functions.php:389
+msgid "Admin removed “((username))” from this group"
+msgstr ""
+
+#: includes/functions.php:328 includes/functions.php:352
+msgid "Admin text"
+msgstr ""
+
+#: includes/functions.php:402
+msgid "Admin update group role"
+msgstr ""
+
+#: includes/functions.php:401
+msgid "Admin update “((username))” group role"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:696
+msgid "ago"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:63
+#: admin/settings/templates/media-options.php:93
+#: admin/settings/templates/media-options.php:123
+#: admin/settings/templates/media-options.php:153
+msgid "Allow extenstions"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:98
+msgid "Allow post type"
+msgstr ""
+
+#. Author of the plugin
+msgid "Amentotech Pvt ltd"
+msgstr ""
+
+#: includes/functions.php:259
+msgid "and ((user_count)) more are typing"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:61
+#: admin/settings/templates/real-time-chat-options.php:80
+msgid "App Cluster"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:49
+#: admin/settings/templates/real-time-chat-options.php:68
+msgid "App ID"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:53
+#: admin/settings/templates/real-time-chat-options.php:72
+msgid "App Key"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:57
+#: admin/settings/templates/real-time-chat-options.php:76
+msgid "App Secret"
+msgstr ""
+
+#: includes/functions.php:257
+msgid "are typing"
+msgstr ""
+
+#: includes/functions.php:221
+msgid "Are you sure you want to block this user?"
+msgstr ""
+
+#: includes/functions.php:193
+msgid "Are you sure you want to clear your chat history?"
+msgstr ""
+
+#: includes/functions.php:381
+msgid "Are you sure you want to delete this group?"
+msgstr ""
+
+#: includes/functions.php:397
+msgid "Are you sure you want to delete this member?"
+msgstr ""
+
+#: includes/functions.php:375
+msgid "Are you sure you want to leave “((groupname))”?"
+msgstr ""
+
+#: admin/class-wp-guppy-admin.php:104
+msgid "Are you sure you want to reset databse?"
+msgstr ""
+
+#: includes/functions.php:287
+msgid "Are you sure you want to unblock this user?"
+msgstr ""
+
+#: includes/functions.php:405
+msgid "Assign a new group admin"
+msgstr ""
+
+#: includes/functions.php:406
+msgid "Assign group admin text"
+msgstr ""
+
+#: includes/functions.php:157 includes/functions.php:158
+msgid "Audio"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:85
+msgid "Audio sharing"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:660
+msgid "Authorization Token does not found!"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:91
+msgid "Auto invite"
+msgstr ""
+
+#: includes/functions.php:410
+msgid "Auto Invite receiver message text"
+msgstr ""
+
+#: includes/functions.php:412
+msgid "Auto Invite sender message text"
+msgstr ""
+
+#: includes/functions.php:493
+msgid "avi"
+msgstr ""
+
+#: includes/functions.php:404
+msgid "Befoe you leave text"
+msgstr ""
+
+#: includes/functions.php:403
+msgid "Before you leave"
+msgstr ""
+
+#: includes/functions.php:171 includes/functions.php:172
+#: includes/functions.php:189 includes/functions.php:190
+msgid "Block user"
+msgstr ""
+
+#: includes/functions.php:226
+msgid "Block user button"
+msgstr ""
+
+#: includes/functions.php:222
+msgid "Block user description?"
+msgstr ""
+
+#: includes/functions.php:224
+msgid "Block user title"
+msgstr ""
+
+#: includes/functions.php:223
+msgid "Block user “((username))”"
+msgstr ""
+
+#: includes/functions.php:237 includes/functions.php:238
+msgid "Blocked"
+msgstr ""
+
+#: admin/settings/templates/tabs-options.php:30
+msgid "Blocked list"
+msgstr ""
+
+#: includes/functions.php:230
+msgid "Blocked user message"
+msgstr ""
+
+#: includes/functions.php:125 includes/functions.php:126
+msgid "Blocked users"
+msgstr ""
+
+#: includes/functions.php:213 includes/functions.php:214
+msgid "Cancel for now"
+msgstr ""
+
+#: includes/functions.php:149 includes/functions.php:150
+msgid "Chat"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:32
+msgid "Chat options"
+msgstr ""
+
+#: admin/settings/settings.php:160
+msgid "Chat tabs"
+msgstr ""
+
+#: includes/functions.php:191 includes/functions.php:192
+msgid "Clear chat"
+msgstr ""
+
+#: includes/functions.php:194
+msgid "Clear chat description"
+msgstr ""
+
+#: includes/functions.php:293
+msgid "Click here"
+msgstr ""
+
+#: includes/functions.php:294
+msgid "click here"
+msgstr ""
+
+#: includes/functions.php:134
+msgid "Contact is not in friend list"
+msgstr ""
+
+#: includes/functions.php:117 includes/functions.php:118
+msgid "Contacts"
+msgstr ""
+
+#: admin/settings/templates/tabs-options.php:24
+msgid "Contacts list"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:39
+msgid "Copy code"
+msgstr ""
+
+#: includes/functions.php:394
+msgid "Counter text from other members"
+msgstr ""
+
+#: includes/functions.php:331
+msgid "Create Group"
+msgstr ""
+
+#: includes/functions.php:332
+msgid "Create Group text"
+msgstr ""
+
+#: includes/functions.php:353
+msgid "Create now"
+msgstr ""
+
+#: includes/functions.php:354
+msgid "Create now text"
+msgstr ""
+
+#: includes/functions.php:532
+msgid "csv"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:48
+msgid "Custom folder"
+msgstr ""
+
+#: admin/settings/settings.php:164
+msgid "Database"
+msgstr ""
+
+#: includes/functions.php:139 includes/functions.php:140
+msgid "Decline"
+msgstr ""
+
+#: includes/functions.php:130
+msgid "Decline User Text"
+msgstr ""
+
+#: admin/settings/templates/tabs-options.php:20
+msgid "Default active tab"
+msgstr ""
+
+#: includes/functions.php:400
+msgid "Delet group member button text"
+msgstr ""
+
+#: includes/functions.php:398
+msgid "Delet group member desc"
+msgstr ""
+
+#: includes/functions.php:396
+msgid "Delet group member text"
+msgstr ""
+
+#: includes/functions.php:295 includes/functions.php:296
+msgid "Delete"
+msgstr ""
+
+#: includes/functions.php:321
+msgid "Delete group conversation"
+msgstr ""
+
+#: includes/functions.php:322
+msgid "Delete group conversation text"
+msgstr ""
+
+#: includes/functions.php:382
+msgid "Delete group desc"
+msgstr ""
+
+#: includes/functions.php:384
+msgid "Delete group option text"
+msgstr ""
+
+#: includes/functions.php:380
+msgid "Delete group text"
+msgstr ""
+
+#: includes/functions.php:379
+msgid "Delete “((groupname))”"
+msgstr ""
+
+#: includes/functions.php:395
+msgid "Delete “((username))”"
+msgstr ""
+
+#: includes/functions.php:302
+msgid "Deleted message"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:53
+#: admin/settings/templates/media-options.php:181
+#: admin/settings/templates/media-options.php:192
+#: admin/settings/templates/media-options.php:203
+#: admin/settings/templates/pusher-options.php:32
+#: admin/settings/templates/real-time-chat-options.php:49
+#: admin/settings/templates/real-time-chat-options.php:60
+msgid "Disable"
+msgstr ""
+
+#: includes/functions.php:358
+msgid "Disable group text"
+msgstr ""
+
+#: includes/functions.php:386
+msgid "Disable reply text"
+msgstr ""
+
+#: includes/functions.php:524
+msgid "doc"
+msgstr ""
+
+#: includes/functions.php:161 includes/functions.php:162
+msgid "Document"
+msgstr ""
+
+#: includes/functions.php:525
+msgid "docx"
+msgstr ""
+
+#: includes/functions.php:299 includes/functions.php:300
+msgid "Download"
+msgstr ""
+
+#: includes/functions.php:217 includes/functions.php:218
+msgid "Download All"
+msgstr ""
+
+#: includes/functions.php:333
+msgid "Edit Group"
+msgstr ""
+
+#: includes/functions.php:317
+msgid "Edit group preferences"
+msgstr ""
+
+#: includes/functions.php:318
+msgid "Edit group preferences text"
+msgstr ""
+
+#: includes/functions.php:334
+msgid "Edit Group text"
+msgstr ""
+
+#: includes/functions.php:341
+msgid "Edit group title"
+msgstr ""
+
+#: includes/functions.php:342
+msgid "Edit group title text"
+msgstr ""
+
+#: includes/functions.php:845
+msgid "Email"
+msgstr ""
+
+#: includes/functions.php:107 includes/functions.php:108
+msgid "Email address"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:63
+msgid "Email content"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:29
+msgid "Email header logo"
+msgstr ""
+
+#: admin/settings/settings.php:167
+msgid "Email templates"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:186
+msgid "Emoji sharing"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:51
+#: admin/settings/templates/media-options.php:179
+#: admin/settings/templates/media-options.php:190
+#: admin/settings/templates/media-options.php:201
+#: admin/settings/templates/pusher-options.php:30
+#: admin/settings/templates/real-time-chat-options.php:47
+#: admin/settings/templates/real-time-chat-options.php:58
+msgid "Enable"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:47
+msgid "Enable groups"
+msgstr ""
+
+#: admin/settings/templates/tabs-options.php:35
+msgid "Enable tabs"
+msgstr ""
+
+#: includes/functions.php:343
+msgid "Enter group title here"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:277
+msgid "Enter purchase code"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:245
+msgid "Envato purchase code"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:238
+msgid "Envato purchase code Verify"
+msgstr ""
+
+#: includes/functions.php:207 includes/functions.php:208
+msgid "Explain issue in detail"
+msgstr ""
+
+#: includes/functions.php:496
+msgid "f4v"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:185
+#: admin/class-user-purchase-verify.php:190
+msgid "Failed!"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:145
+msgid "File sharing"
+msgstr ""
+
+#: includes/functions.php:462
+msgid "flac"
+msgstr ""
+
+#: includes/functions.php:495
+msgid "flv"
+msgstr ""
+
+#: admin/settings/templates/tabs-options.php:28
+msgid "Friend list"
+msgstr ""
+
+#: includes/functions.php:123 includes/functions.php:124
+msgid "Friends"
+msgstr ""
+
+#: includes/functions.php:105 includes/functions.php:106
+msgid "Full name"
+msgstr ""
+
+#: admin/settings/settings.php:159
+msgid "General"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:27
+#: admin/settings/templates/general-options.php:30
+msgid "General settings"
+msgstr ""
+
+#: includes/functions.php:75
+msgid "gif"
+msgstr ""
+
+#: includes/functions.php:362
+msgid "Group created notify"
+msgstr ""
+
+#: includes/functions.php:366
+msgid "Group removed Notify"
+msgstr ""
+
+#: includes/functions.php:344
+msgid "group title placeholder text"
+msgstr ""
+
+#: includes/functions.php:364
+msgid "Group updated notify"
+msgstr ""
+
+#: includes/functions.php:325
+msgid "Group users"
+msgstr ""
+
+#: includes/functions.php:326
+msgid "Group users text"
+msgstr ""
+
+#: includes/functions.php:133
+msgid ""
+"Hey there! It looks like this contact is not in your friend list. Would you "
+"like to chat with this user?"
+msgstr ""
+
+#: includes/functions.php:135
+msgid ""
+"Hey there, I would like to add you in my friend list, Please hit “Accept” to "
+"start chatting"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:1213
+#: admin/settings/templates/email-options.php:16
+msgid ""
+"Hey,\n"
+"\n"
+"“{{who_report}}” reported a complaint of “{{report_against}}” against "
+"“{{reason}}”. Please read the description below. \n"
+"\n"
+"{{user_content}} \n"
+"\n"
+"Thanks & regards \n"
+"“{{who_report}}”"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:84
+msgid "Host url"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/amentotech/portfolio"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wp-guppy.com/"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:98
+msgid ""
+"if you will change this port then you have to change it in .env file located "
+"in plugins > wp-guppy > node-server > .env at line PORT_ID"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:55
+msgid "Image sharing"
+msgstr ""
+
+#: includes/functions.php:434
+msgid "Inappropriate Content"
+msgstr ""
+
+#: includes/functions.php:131 includes/functions.php:132
+msgid "Invite"
+msgstr ""
+
+#: includes/functions.php:255
+msgid "is typing"
+msgstr ""
+
+#: includes/functions.php:74
+msgid "jpeg"
+msgstr ""
+
+#: includes/functions.php:72
+msgid "jpg"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:58
+#: admin/settings/templates/media-options.php:88
+#: admin/settings/templates/media-options.php:118
+#: admin/settings/templates/media-options.php:148
+msgid "KB"
+msgstr ""
+
+#: includes/functions.php:319
+msgid "Leave group"
+msgstr ""
+
+#: includes/functions.php:392
+msgid "Leave group member text"
+msgstr ""
+
+#: includes/functions.php:320 includes/functions.php:378
+msgid "Leave group text"
+msgstr ""
+
+#: includes/functions.php:376
+msgid "Leaving group desc"
+msgstr ""
+
+#: includes/functions.php:374
+msgid "Leaving group text"
+msgstr ""
+
+#: includes/functions.php:373
+msgid "Leaving group?"
+msgstr ""
+
+#: includes/functions.php:258
+msgid "Less than 4 users are typing"
+msgstr ""
+
+#: admin/settings/settings.php:173
+msgid "License"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:218
+#: admin/class-user-purchase-verify.php:219
+msgid "License activation"
+msgstr ""
+
+#: includes/functions.php:219 includes/functions.php:220
+msgid "Load more"
+msgstr ""
+
+#: includes/functions.php:163 includes/functions.php:164
+msgid "Location"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:175
+msgid "Location sharing"
+msgstr ""
+
+#: includes/functions.php:103 includes/functions.php:104
+msgid "Logout"
+msgstr ""
+
+#: includes/functions.php:349
+msgid "MAKE ADMIN"
+msgstr ""
+
+#: includes/functions.php:350
+msgid "Make admin text"
+msgstr ""
+
+#: includes/functions.php:357
+msgid "Make disable replies of this group"
+msgstr ""
+
+#: includes/functions.php:307
+msgid "Map"
+msgstr ""
+
+#: includes/functions.php:308
+msgid "Map text for rect app"
+msgstr ""
+
+#: admin/settings/settings.php:162
+msgid "Media"
+msgstr ""
+
+#: includes/functions.php:215 includes/functions.php:216
+msgid "Media & attachments"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:33
+msgid "Media settings"
+msgstr ""
+
+#: admin/settings/templates/tabs-options.php:26
+msgid "Message list"
+msgstr ""
+
+#: includes/functions.php:499
+msgid "mkv"
+msgstr ""
+
+#: includes/functions.php:313
+msgid "more"
+msgstr ""
+
+#: includes/functions.php:260
+msgid "More than 4 users are typing"
+msgstr ""
+
+#: includes/functions.php:494
+msgid "mov"
+msgstr ""
+
+#: includes/functions.php:461
+msgid "mp3"
+msgstr ""
+
+#: includes/functions.php:489
+msgid "mp4"
+msgstr ""
+
+#: includes/functions.php:497
+msgid "mpeg"
+msgstr ""
+
+#: includes/functions.php:183 includes/functions.php:184
+msgid "Mute conversation"
+msgstr ""
+
+#: includes/functions.php:101 includes/functions.php:102
+msgid "Mute notifications"
+msgstr ""
+
+#: includes/functions.php:841
+msgid "Name"
+msgstr ""
+
+#: includes/functions.php:145 includes/functions.php:146
+msgid "No attachments to show"
+msgstr ""
+
+#: includes/functions.php:121 includes/functions.php:122
+msgid "No results to show"
+msgstr ""
+
+#: includes/functions.php:227 includes/functions.php:228
+msgid "Not right now"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:37
+msgid "Notification bell url"
+msgstr ""
+
+#: includes/functions.php:175 includes/functions.php:176
+msgid "Offline"
+msgstr ""
+
+#: includes/functions.php:490
+msgid "ogv"
+msgstr ""
+
+#: includes/functions.php:177 includes/functions.php:178
+msgid "Online"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:99
+#: admin/class-user-purchase-verify.php:145
+msgid "Oops!"
+msgstr ""
+
+#: includes/functions.php:437
+msgid "Others"
+msgstr ""
+
+#: includes/functions.php:329
+msgid "OWNER"
+msgstr ""
+
+#: includes/functions.php:330
+msgid "OWNER text"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:53
+msgid "Params"
+msgstr ""
+
+#: includes/functions.php:523
+msgid "pdf"
+msgstr ""
+
+#: includes/functions.php:109 includes/functions.php:110
+#: includes/functions.php:849
+msgid "Phone"
+msgstr ""
+
+#: includes/functions.php:159 includes/functions.php:160
+msgid "Photo"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:83
+msgid ""
+"Please activate WP Guppy license to see all the settings. Click below button "
+"to start activating"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:32
+msgid ""
+"Please add email logo here, leave this empty to hide the logo from the email."
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:94
+msgid "Please add the available port for node server, default would be 81."
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:87
+msgid "Please add the host url, it could be https://yourdomain.com"
+msgstr ""
+
+#: admin/settings/templates/translation-options.php:18
+msgid "Please don't remove or make any change in "
+msgstr ""
+
+#: admin/settings/templates/email-options.php:66
+msgid "Please don't use any HTM tags into this template"
+msgstr ""
+
+#: includes/functions.php:201
+msgid "Please fill the report form below so we can review."
+msgstr ""
+
+#: includes/functions.php:73
+msgid "png"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:91
+msgid "Port ID"
+msgstr ""
+
+#: includes/functions.php:528
+msgid "ppt"
+msgstr ""
+
+#: includes/functions.php:529
+msgid "pptx"
+msgstr ""
+
+#: admin/settings/templates/style-options.php:22
+msgid "Primary color"
+msgstr ""
+
+#: includes/functions.php:187 includes/functions.php:188
+msgid "Privacy settings"
+msgstr ""
+
+#: includes/functions.php:436
+msgid "Privacy violates"
+msgstr ""
+
+#: includes/functions.php:153 includes/functions.php:154
+msgid "Profile"
+msgstr ""
+
+#: includes/functions.php:99 includes/functions.php:100
+msgid "Profile settings"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:36
+msgid "Pusher channel"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:26
+#: admin/settings/templates/real-time-chat-options.php:43
+msgid "Pusher settings"
+msgstr ""
+
+#: admin/settings/settings.php:163
+msgid "Real time chat"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:22
+#: admin/settings/templates/real-time-chat-options.php:28
+msgid "Real-time chat settings"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:57
+msgid "Reason(s) of reporting"
+msgstr ""
+
+#: includes/functions.php:304
+msgid "Recording text for rect app"
+msgstr ""
+
+#: includes/functions.php:303
+msgid "Recording..."
+msgstr ""
+
+#: includes/functions.php:113 includes/functions.php:114
+msgid "Remove"
+msgstr ""
+
+#: includes/functions.php:390
+msgid "Remove group member text"
+msgstr ""
+
+#: admin/settings/templates/license-options.php:11
+msgid "Remove Guppy Purchase License"
+msgstr ""
+
+#: includes/functions.php:291 includes/functions.php:292
+msgid "Reply message"
+msgstr ""
+
+#: includes/functions.php:197 includes/functions.php:198
+msgid "Report"
+msgstr ""
+
+#: admin/settings/settings.php:166
+#: admin/settings/templates/report-options.php:15
+msgid "Report a user"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:36
+msgid "Report a user email"
+msgstr ""
+
+#: admin/settings/templates/report-options.php:19
+msgid "Report a user repeater field"
+msgstr ""
+
+#: includes/functions.php:323
+msgid "Report group"
+msgstr ""
+
+#: includes/functions.php:324
+msgid "Report group text"
+msgstr ""
+
+#: includes/functions.php:204
+msgid "Report Title"
+msgstr ""
+
+#: includes/functions.php:202
+msgid "Report user description"
+msgstr ""
+
+#: includes/functions.php:200
+msgid "Report user heading"
+msgstr ""
+
+#: includes/functions.php:199
+msgid "Report “((username))”"
+msgstr ""
+
+#: includes/functions.php:252 includes/functions.php:253
+msgid "Resend anyway"
+msgstr ""
+
+#: admin/settings/templates/database-options.php:13
+msgid "Reset database"
+msgstr ""
+
+#: admin/settings/templates/database-options.php:17
+msgid "Reset guppy tables"
+msgstr ""
+
+#: includes/functions.php:249 includes/functions.php:250
+msgid "Respond to invite"
+msgstr ""
+
+#: admin/settings/templates/database-options.php:19
+msgid "Rest database"
+msgstr ""
+
+#: admin/settings/templates/license-options.php:5
+msgid "Revoke License"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:59
+msgid "Role management"
+msgstr ""
+
+#: includes/functions.php:115 includes/functions.php:116
+#: admin/settings/settings.php:193
+msgid "Save changes"
+msgstr ""
+
+#: includes/functions.php:119 includes/functions.php:120
+msgid "Search here"
+msgstr ""
+
+#: includes/functions.php:315
+msgid "Search in conversation"
+msgstr ""
+
+#: includes/functions.php:316
+msgid "Search in conversation text"
+msgstr ""
+
+#: includes/functions.php:369
+msgid "Search user here"
+msgstr ""
+
+#: includes/functions.php:370
+msgid "Search user text"
+msgstr ""
+
+#: includes/functions.php:167 includes/functions.php:168
+msgid "Searching results"
+msgstr ""
+
+#: admin/settings/templates/style-options.php:28
+msgid "Secondary color"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:100
+#: admin/class-user-purchase-verify.php:146
+msgid ""
+"Security check failed, this could be because of your browser cache. Please "
+"clear the cache and check it again"
+msgstr ""
+
+#: includes/functions.php:345
+msgid "Select group users"
+msgstr ""
+
+#: includes/functions.php:346
+msgid "Select group users text"
+msgstr ""
+
+#: includes/functions.php:205 includes/functions.php:206
+msgid "Select report reason"
+msgstr ""
+
+#: includes/functions.php:143
+msgid "Select the user to start your conversation"
+msgstr ""
+
+#: includes/functions.php:309
+msgid "Send current location"
+msgstr ""
+
+#: includes/functions.php:310
+msgid "Send location text for rect app"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:872 includes/functions.php:127
+#: includes/functions.php:128
+msgid "Sent"
+msgstr ""
+
+#: includes/functions.php:276 includes/functions.php:277
+msgid "Sent you a location"
+msgstr ""
+
+#: includes/functions.php:284 includes/functions.php:285
+msgid "Sent you a voice note"
+msgstr ""
+
+#: includes/functions.php:268 includes/functions.php:269
+msgid "Sent you an attachment"
+msgstr ""
+
+#: includes/functions.php:407
+msgid "Set admin and leave the group"
+msgstr ""
+
+#: includes/functions.php:408
+msgid "Set admin button text"
+msgstr ""
+
+#: wp-guppy.php:93 admin/class-user-purchase-verify.php:72
+#: includes/functions.php:179 includes/functions.php:180
+msgid "Settings"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:34
+msgid "Shortcode"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:54
+msgid "Socket io settings"
+msgstr ""
+
+#: admin/settings/templates/real-time-chat-options.php:38
+msgid "Socket-io"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:589
+msgid "Some error occur, please try again later."
+msgstr ""
+
+#: includes/functions.php:435
+msgid "Spam"
+msgstr ""
+
+#: includes/functions.php:141
+msgid "Start chat"
+msgstr ""
+
+#: includes/functions.php:142
+msgid "Start chat text"
+msgstr ""
+
+#: includes/functions.php:144
+msgid "Start conversation"
+msgstr ""
+
+#: includes/functions.php:305
+msgid "Stop"
+msgstr ""
+
+#: includes/functions.php:306
+msgid "Stop text for rect app"
+msgstr ""
+
+#: admin/settings/settings.php:161
+msgid "Styles"
+msgstr ""
+
+#: admin/settings/templates/style-options.php:18
+msgid "Styling settings"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:47
+msgid "Subject"
+msgstr ""
+
+#: includes/functions.php:211 includes/functions.php:212
+msgid "Submit report"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:181
+msgid "Success!"
+msgstr ""
+
+#: admin/settings/templates/tabs-options.php:16
+msgid "Tabs settings"
+msgstr ""
+
+#: admin/settings/templates/style-options.php:34
+msgid "Text color"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:4249
+msgid "These file types are not allowed!"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:186
+msgid "This code is invalid for this product!"
+msgstr ""
+
+#: includes/functions.php:301
+msgid "This message was deleted"
+msgstr ""
+
+#: includes/functions.php:838
+msgid ""
+"This settings will be added to WP plugin. You may leave this infromation "
+"empty"
+msgstr ""
+
+#: includes/functions.php:203
+msgid "Title the issue"
+msgstr ""
+
+#: includes/functions.php:337
+msgid "to upload group photo"
+msgstr ""
+
+#: includes/functions.php:111
+msgid "to upload profile photo"
+msgstr ""
+
+#: admin/settings/settings.php:165
+msgid "Translation"
+msgstr ""
+
+#: admin/settings/templates/translation-options.php:17
+msgid "Translation settings"
+msgstr ""
+
+#: includes/functions.php:533
+msgid "txt"
+msgstr ""
+
+#: includes/functions.php:166
+msgid "Type message"
+msgstr ""
+
+#: includes/functions.php:165
+msgid "Type your message here"
+msgstr ""
+
+#: includes/functions.php:256
+msgid "Typing for one user"
+msgstr ""
+
+#: includes/functions.php:169 includes/functions.php:170
+msgid "Unblock"
+msgstr ""
+
+#: includes/functions.php:290
+msgid "Unblock button"
+msgstr ""
+
+#: includes/functions.php:297
+msgid "Unblock now"
+msgstr ""
+
+#: includes/functions.php:298
+msgid "Unblock now "
+msgstr ""
+
+#: includes/functions.php:173 includes/functions.php:174
+msgid "Unblock user"
+msgstr ""
+
+#: includes/functions.php:288
+msgid "Unblock user description"
+msgstr ""
+
+#: includes/functions.php:232
+msgid "Unblock user heading"
+msgstr ""
+
+#: includes/functions.php:231
+msgid "Unblock user “((username))”"
+msgstr ""
+
+#: includes/functions.php:185 includes/functions.php:186
+msgid "Unmute conversation"
+msgstr ""
+
+#: includes/functions.php:347
+msgid "Update group users"
+msgstr ""
+
+#: includes/functions.php:348
+msgid "Update group users text"
+msgstr ""
+
+#: includes/functions.php:355
+msgid "Update now"
+msgstr ""
+
+#: includes/functions.php:356
+msgid "Update now text"
+msgstr ""
+
+#: admin/settings/settings.php:57
+msgid "Update status"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:44
+msgid "Upload Attachments"
+msgstr ""
+
+#: includes/functions.php:335
+msgid "Upload group photo"
+msgstr ""
+
+#: includes/functions.php:336 includes/functions.php:338
+msgid "Upload group photo text"
+msgstr ""
+
+#: includes/functions.php:112
+msgid "Upload photo"
+msgstr ""
+
+#: includes/functions.php:266
+msgid "Uploading media message text"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:58
+msgid "User issue reporting description"
+msgstr ""
+
+#: includes/functions.php:314
+msgid "User more text"
+msgstr ""
+
+#: admin/settings/templates/email-options.php:56
+msgid "User name against report"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:620
+msgid "user name and password are required fields."
+msgstr ""
+
+#: admin/settings/templates/email-options.php:55
+msgid "User name who is reporting"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:1211
+#: admin/settings/templates/email-options.php:14
+msgid "User reported against {{reason}}"
+msgstr ""
+
+#: includes/functions.php:274
+msgid "User sent a location"
+msgstr ""
+
+#: includes/functions.php:282
+msgid "User sent a voice note"
+msgstr ""
+
+#: includes/functions.php:264
+msgid "User sent an attachment text"
+msgstr ""
+
+#: admin/class-user-purchase-verify.php:182
+msgid "Verified"
+msgstr ""
+
+#: includes/functions.php:155 includes/functions.php:156
+#: includes/functions.php:311
+msgid "Video"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:115
+msgid "Video sharing"
+msgstr ""
+
+#: includes/functions.php:312
+msgid "Video text for rect app"
+msgstr ""
+
+#: includes/functions.php:147 includes/functions.php:148
+msgid "Voice note"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:197
+msgid "Voice Note sharing"
+msgstr ""
+
+#: includes/functions.php:463
+msgid "wav"
+msgstr ""
+
+#: admin/settings/templates/pusher-options.php:38
+msgid ""
+"We have used <a href=\"https://pusher.com/channels\">Pusher Channel API</a> "
+"for the real-time chat experience, you must create channel API keys and add "
+"into the below settings. You may <a href=\"https://www.youtube.com/watch?"
+"v=G5It46mSraI\">check this guide</a>"
+msgstr ""
+
+#: includes/functions.php:491
+msgid "webm"
+msgstr ""
+
+#: includes/functions.php:465
+msgid "wma"
+msgstr ""
+
+#: includes/functions.php:492
+msgid "wmv"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:50
+msgid "WordPress media"
+msgstr ""
+
+#. Name of the plugin
+#: admin/settings/settings.php:110 admin/settings/settings.php:111
+msgid "WP Guppy"
+msgstr ""
+
+#: includes/functions.php:900
+msgid "WP Guppy admin"
+msgstr ""
+
+#: elementor/config.php:59 wpbakery/vc-guppy.php:27 wpbakery/vc-guppy.php:29
+#: wpbakery/vc-guppy.php:30 elementor/shortcodes/wp-guppy-chat.php:39
+msgid "WP Guppy Chat"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WP Guppy is a well thought and clinically designed and developed WordPress "
+"chat plugin which has been engineered to fulfil the market needs. It is "
+"loaded with features without compromising on quality."
+msgstr ""
+
+#: includes/functions.php:837
+msgid "WP Guppy user settings"
+msgstr ""
+
+#: includes/functions.php:526
+msgid "xls"
+msgstr ""
+
+#: includes/functions.php:527
+msgid "xlsx"
+msgstr ""
+
+#: includes/functions.php:225
+msgid "Yes! block right now"
+msgstr ""
+
+#: includes/functions.php:195 includes/functions.php:196
+msgid "Yes! clear all"
+msgstr ""
+
+#: includes/functions.php:399
+msgid "Yes! detele right now"
+msgstr ""
+
+#: includes/functions.php:377
+msgid "Yes! leave now"
+msgstr ""
+
+#: includes/functions.php:383
+msgid "Yes! remove right now"
+msgstr ""
+
+#: includes/functions.php:289
+msgid "Yes! unblock right now "
+msgstr ""
+
+#: includes/functions.php:359 includes/functions.php:360
+#: includes/functions.php:371
+msgid "You"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:613
+msgid "You are logged in"
+msgstr ""
+
+#: includes/class-wp-guppy-rest-api.php:655
+#: includes/class-wp-guppy-rest-api.php:671
+#: includes/class-wp-guppy-rest-api.php:732
+#: includes/class-wp-guppy-rest-api.php:1827
+#: includes/class-wp-guppy-rest-api.php:2358
+#: includes/class-wp-guppy-rest-api.php:2858
+#: includes/class-wp-guppy-rest-api.php:3261
+#: includes/class-wp-guppy-rest-api.php:3487
+#: includes/class-wp-guppy-rest-api.php:3538
+#: includes/class-wp-guppy-rest-api.php:3836 admin/settings/settings.php:50
+#: admin/settings/settings.php:76
+msgid "You are not allowed to perform this action!"
+msgstr ""
+
+#: includes/functions.php:365
+msgid "You are removed by group admin"
+msgstr ""
+
+#: admin/settings/templates/general-options.php:89
+msgid ""
+"You can enable auto invite for this role. This role user will be able to "
+"start chat with any user from the contact list"
+msgstr ""
+
+#: admin/settings/templates/media-options.php:40
+msgid ""
+"You can upload mp3 or wav file into WordPress media and copy that URL and "
+"add here for the ring tune."
+msgstr ""
+
+#: includes/functions.php:234 includes/functions.php:235
+msgid "You have been blocked by this user"
+msgstr ""
+
+#: includes/functions.php:229
+msgid "You have blocked this user. %Unblock% now to start chatting again"
+msgstr ""
+
+#: admin/settings/settings.php:95
+msgid "You have successfully reset database"
+msgstr ""
+
+#: includes/functions.php:367 includes/functions.php:368
+msgid "You left"
+msgstr ""
+
+#: includes/functions.php:271 includes/functions.php:272
+msgid "You sent a location"
+msgstr ""
+
+#: includes/functions.php:279 includes/functions.php:280
+msgid "You sent a voice note"
+msgstr ""
+
+#: includes/functions.php:151 includes/functions.php:152
+#: includes/functions.php:261 includes/functions.php:262
+msgid "You sent an attachment"
+msgstr ""
+
+#: includes/functions.php:372
+msgid "You text"
+msgstr ""
+
+#: includes/functions.php:243 includes/functions.php:244
+msgid "Your email"
+msgstr ""
+
+#: includes/functions.php:265
+msgid "Your file is being uploaded"
+msgstr ""
+
+#: includes/functions.php:240 includes/functions.php:241
+msgid "Your name"
+msgstr ""
+
+#: includes/functions.php:246 includes/functions.php:247
+msgid "Your phone number"
+msgstr ""
+
+#: includes/functions.php:129
+msgid "Your request has been declined by this user"
+msgstr ""
+
+#: includes/functions.php:530
+msgid "zip"
+msgstr ""
+
+#: includes/functions.php:391
+msgid "“((username))” left this group"
+msgstr ""
+
+#: includes/functions.php:385
+msgid "“Admin” disabled replies of this group"
+msgstr ""
